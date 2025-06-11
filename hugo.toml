@@ -27,6 +27,12 @@ name = "Tutorials"
 url = "/tutorials/"
 weight = 40
 
+[[menu.main]]
+identifier = "series"
+name = "Series"
+url = "/series/"
+weight = 50
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
