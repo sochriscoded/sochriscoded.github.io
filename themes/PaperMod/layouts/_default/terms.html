@@ -24,12 +24,4 @@
     {{- end }}
 </ul>
 
-<h1>Series</h1>
-<ul>
-  {{ range .Data.Terms }}
-    <li><a href="{{ .Page.RelPermalink }}">{{ .LinkTitle }}</a> ({{ .Count }} posts)</li>
-  {{ end }}
-</ul>
-
-
 {{- end }}{{/* end main */ -}}
