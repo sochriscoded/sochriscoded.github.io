@@ -30,3 +30,8 @@ weight = 40
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
