@@ -2,14 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>sochriscoded.github.io/blog/</loc>
+    <loc>//localhost:1313/series/01-hello-c/</loc>
+    <lastmod>2025-06-11T15:13:33-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/c-programming/</loc>
+    <lastmod>2025-06-11T15:13:33-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/series/c-programming-basics/</loc>
+    <lastmod>2025-06-11T15:13:33-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/series/</loc>
+    <lastmod>2025-06-11T15:13:33-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-06-11T15:13:33-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/</loc>
     <lastmod>2025-06-11T12:32:21-06:00</lastmod>
   </url><url>
-    <loc>sochriscoded.github.io/</loc>
+    <loc>//localhost:1313/blog/howdyworld/</loc>
     <lastmod>2025-06-11T12:32:21-06:00</lastmod>
   </url><url>
-    <loc>sochriscoded.github.io/categories/</loc>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-01-30T03:36:57-08:00</lastmod>
   </url><url>
-    <loc>sochriscoded.github.io/tags/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url>
 </urlset>

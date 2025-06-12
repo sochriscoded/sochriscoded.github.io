@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on Chris Coded</title>
-    <link>sochriscoded.github.io/blog/</link>
+    <link>//localhost:1313/blog/</link>
     <description>Recent content in Blogs on Chris Coded</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="sochriscoded.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jun 2025 12:32:21 -0600</lastBuildDate>
+    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Howdy World!</title>
+      <link>//localhost:1313/blog/howdyworld/</link>
+      <pubDate>Wed, 11 Jun 2025 12:32:21 -0600</pubDate>
+      <guid>//localhost:1313/blog/howdyworld/</guid>
+      <description>&lt;p&gt;The first edition of &amp;ldquo;The C Programming Language&amp;rdquo; was published in 1978. Developed by Dr. Dennis Ritche, Dr. Ken Thomson, and writing support from Dr. Brian Kernigan completely changed the way we program forever. C was a revelation, a shift from the paradigm that each mainframe and computer had to be run on unique, separate operating system. Through C, Unix became the primary OS of academia and thus would be the foundation for Apple, Windows, Java, Python, C++, Go, and so many more tools we use today.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
