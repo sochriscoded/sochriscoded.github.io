@@ -1,7 +1,6 @@
 baseURL = 'sochriscoded.github.io'
 languageCode = 'en-us'
 title = 'Christopher Smith'
-theme = 'chriscoded'
 
 pagination.pagerSize = 100
 

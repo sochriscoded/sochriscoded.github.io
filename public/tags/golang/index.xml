@@ -57,14 +57,42 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/03-variables-and-statements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/03-variables-and-statements/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;h2 id=&#34;lesson-overview&#34;&gt;Lesson Overview&lt;/h2&gt;
+&lt;h2 id=&#34;running-your-go-code&#34;&gt;Running Your Go Code&lt;/h2&gt;
+&lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
+&lt;h3 id=&#34;basic-variables&#34;&gt;Basic Variables&lt;/h3&gt;
+&lt;h3 id=&#34;declaring-variables&#34;&gt;Declaring Variables&lt;/h3&gt;
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+&lt;h3 id=&#34;variable-types&#34;&gt;Variable Types&lt;/h3&gt;
+&lt;h3 id=&#34;picking-types&#34;&gt;Picking Types&lt;/h3&gt;
+&lt;h3 id=&#34;constants&#34;&gt;constants&lt;/h3&gt;
+&lt;h3 id=&#34;formatting-output&#34;&gt;Formatting Output&lt;/h3&gt;
+&lt;h2 id=&#34;logic-making-variables-do-stuff&#34;&gt;Logic: Making Variables Do Stuff&lt;/h2&gt;
+&lt;h3 id=&#34;and-not-and-or-can-get-you-pretty-far&#34;&gt;AND, NOT, and OR Can Get You Pretty Far&lt;/h3&gt;
+&lt;h3 id=&#34;logic-operators&#34;&gt;Logic Operators&lt;/h3&gt;
+&lt;h3 id=&#34;if-and-else&#34;&gt;If and Else&lt;/h3&gt;
+&lt;h3 id=&#34;switch-and-case&#34;&gt;Switch and Case&lt;/h3&gt;
+&lt;h3 id=&#34;looping-again-and-again-and-again-and-again&#34;&gt;Looping Again and Again and Again and Again&lt;/h3&gt;
+&lt;h4 id=&#34;continue-and-break&#34;&gt;Continue and Break&lt;/h4&gt;</description>
     </item>
     <item>
       <title>04 Functions 1</title>
       <link>//localhost:1313/series/a-guide-to-go-programming/04-functions-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/04-functions-1/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;what-are-functions&#34;&gt;What are Functions?&lt;/h2&gt;
+&lt;h2 id=&#34;functions-basics&#34;&gt;Functions Basics&lt;/h2&gt;
+&lt;h3 id=&#34;declaring-functions&#34;&gt;Declaring Functions&lt;/h3&gt;
+&lt;h3 id=&#34;functions-can-have-parameters&#34;&gt;Functions Can Have Parameters&lt;/h3&gt;
+&lt;h3 id=&#34;pass-by-value-pass-by-reference&#34;&gt;Pass by Value, Pass By Reference&lt;/h3&gt;
+&lt;h3 id=&#34;returning-values&#34;&gt;Returning Values&lt;/h3&gt;
+&lt;h4 id=&#34;the-_-operator&#34;&gt;The _ operator&lt;/h4&gt;
+&lt;h4 id=&#34;named-and-unnamed-returns&#34;&gt;Named and Unnamed Returns&lt;/h4&gt;
+&lt;h4 id=&#34;explicit-and-implicit-returns&#34;&gt;Explicit and Implicit Returns&lt;/h4&gt;
+&lt;h4 id=&#34;early-returns&#34;&gt;Early Returns&lt;/h4&gt;
+&lt;h2 id=&#34;putting-it-all-together&#34;&gt;Putting it all together&lt;/h2&gt;
+&lt;h3 id=&#34;project-1-fizz-buzz&#34;&gt;Project 1: Fizz Buzz&lt;/h3&gt;</description>
     </item>
     <item>
       <title>04 Sorting Part 1</title>
