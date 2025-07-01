@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>02 Hello World | Christopher Smith</title>
+<meta name="keywords" content="golang">
+<meta name="description" content="When Go was initially designed, it was built with the intent of being a &ldquo;Modern C&rdquo; or a reimagining of what C would be like, had it been invented in the Year of our Lord Alan Turing, 2015.
+Go is a compiled, strongly typed, multi-paradigmed, garbage-collected language that focuses on simplicity and speed rather than a vast type system, or single-paradigm behavior.
+It has recieved critical acclaim as well as criticism from throughout the community but its nature has lent itself well to becoming a solid choice for backend, service-centered architecture, while remaining fast and memory-safe.">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313/series/a-guide-to-go-programming/02-hello-world/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/series/a-guide-to-go-programming/02-hello-world/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="Christopher Smith (Alt + H)">Christopher Smith</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/series/" title="Learn">
+                    <span>Learn</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      02 Hello World
+    </h1>
+    <div class="post-meta">
+
+</div>
+  </header> 
+  <div class="post-content"><p>When Go was initially designed, it was built with the intent of being a &ldquo;Modern C&rdquo; or a reimagining of what C would be like, had it been invented in the Year of our Lord Alan Turing, 2015.</p>
+<p>Go is a compiled, strongly typed, multi-paradigmed, garbage-collected language that focuses on simplicity and speed rather than a vast type system, or single-paradigm behavior.</p>
+<p>It has recieved critical acclaim as well as criticism from throughout the community but its nature has lent itself well to becoming a solid choice for backend, service-centered architecture, while remaining fast and memory-safe.</p>
+<p>Often, if you are forever online, you might know of the debate that rages between Rust users, Go users, Haskell users, and Ocaml users, however I find these debates rather cumbersome and pointless. I live by the idea that most programming languages are good and serve their purpose well, even ABAP, which I work with professionally <a href="https://news.ycombinator.com/item?id=22247205">see this Y Combinator forum post from 2020 to get a sense for how SAP Engineers feel about it</a>.</p>
+<p>With this being said, you can expect to breeze through the syntax of Go fairly quickly, but find, that like C, the complexity rests under the hood and in your own knowledge. With that out of the way, let&rsquo;s dive into our first Go program!</p>
+<h2 id="hello-go">Hello Go<a hidden class="anchor" aria-hidden="true" href="#hello-go">#</a></h2>
+<p>Let&rsquo;s look at that classic first example: Hello, World!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">include</span> <span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Hello, World!&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>to compile and run, save this file as <code>hello.go</code> and open the terminal. <code>cd</code> to the director/folder where your <code>hello.go</code> is located and run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>go run hello.go
+</span></span></code></pre></div><p>The terminal should display <code>Hello, World!</code></p>
+<p>the <code>go</code> command is an important part of the go programming language that we call the <strong>go toolchain</strong>. We can compile with <code>go build</code> and run without compiling with <code>go run</code>.</p>
+<h2 id="breaking-down-the-code">Breaking down the code<a hidden class="anchor" aria-hidden="true" href="#breaking-down-the-code">#</a></h2>
+<p>We start with line 1: <code>package main</code>. This tells the compiler that we are putting our code into a bundle of other code files we call the <code>main</code> package. the Go compiler looks for a main package and a main method, where it will start from.</p>
+<p>There is some pre-written, pre-packaged code that comes with the Go language, and these codes are bundled into packaged. To use them we use the <code>include</code> keyword.</p>
+<p>next is a special <strong>function</strong> we call <code>main</code>. A function is a block of code that takes in some input, and can spit out an output. We&rsquo;ll talk more about them later but for now, just know that it exists.</p>
+<p>On the next line, we have <code>fmt.Println(&quot;Hello, World!&quot;)</code>. <code>fmt</code> is our package of code that we are using and we are using a specific function from this code called <code>Println()</code> which takes some input (in our case <code>&quot;Hello, World!&quot;</code>) and turns it into some output onto the console screen.</p>
+<p>And that&rsquo;s it, that is your first Go program! In the next post, we&rsquo;ll talk more about functions and some other things called variables and conditional logic.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="//localhost:1313/tags/golang/">Golang</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/">Christopher Smith</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://www.youtube.com/watch?v=SiJie3Z7DG8&pp=ygUSd2VlemVyIGJ1ZGR5IGhvbGx5" rel="noopener noreferrer" target="_blank">Love</a> &
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" rel="noopener" target="_blank">Persistance</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

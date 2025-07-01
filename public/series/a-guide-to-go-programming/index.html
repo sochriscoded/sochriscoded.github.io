@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>A Guide to Go Programming | Christopher Smith</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313/series/a-guide-to-go-programming/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="//localhost:1313/series/a-guide-to-go-programming/index.xml">
+<link rel="alternate" hreflang="en" href="//localhost:1313/series/a-guide-to-go-programming/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="Christopher Smith (Alt + H)">Christopher Smith</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/series/" title="Learn">
+                    <span>Learn</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    A Guide to Go Programming
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">01 An Introduction to Go
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Why Go In a world overflowing with programming languages, Go (or Golang) stands out not just for what it does,but for why it was created in the first place. Born at Google in the late 2000s, Go was forged in the fires of frustration. Its creators,Robert Griesemer, Rob Pike, and Ken Thompson,were all veterans of systems programming and distributed systems, and they were growing weary of the complex build times, clunky dependency management, and lack of scalability in existing languages.
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 01 An Introduction to Go" href="//localhost:1313/series/a-guide-to-go-programming/01-an-introduction-to-go/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">02 Hello World
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>When Go was initially designed, it was built with the intent of being a “Modern C” or a reimagining of what C would be like, had it been invented in the Year of our Lord Alan Turing, 2015.
+Go is a compiled, strongly typed, multi-paradigmed, garbage-collected language that focuses on simplicity and speed rather than a vast type system, or single-paradigm behavior.
+It has recieved critical acclaim as well as criticism from throughout the community but its nature has lent itself well to becoming a solid choice for backend, service-centered architecture, while remaining fast and memory-safe.
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 02 Hello World" href="//localhost:1313/series/a-guide-to-go-programming/02-hello-world/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">03 Variables and Statements
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introduction Lesson Overview Running Your Go Code Variables Basic Variables Declaring Variables Comments Variable Types Picking Types constants Formatting Output Logic: Making Variables Do Stuff AND, NOT, and OR Can Get You Pretty Far Logic Operators If and Else Switch and Case Looping Again and Again and Again and Again Continue and Break</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 03 Variables and Statements" href="//localhost:1313/series/a-guide-to-go-programming/03-variables-and-statements/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">04 Functions 1
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>What are Functions? Functions Basics Declaring Functions Functions Can Have Parameters Pass by Value, Pass By Reference Returning Values The _ operator Named and Unnamed Returns Explicit and Implicit Returns Early Returns Putting it all together Project 1: Fizz Buzz</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 04 Functions 1" href="//localhost:1313/series/a-guide-to-go-programming/04-functions-1/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">05 Functions 2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 05 Functions 2" href="//localhost:1313/series/a-guide-to-go-programming/05-functions-2/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">06 Structs
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 06 Structs" href="//localhost:1313/series/a-guide-to-go-programming/06-structs/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">07 Pointers
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 07 Pointers" href="//localhost:1313/series/a-guide-to-go-programming/07-pointers/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">08 Arrays
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 08 Arrays" href="//localhost:1313/series/a-guide-to-go-programming/08-arrays/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">09 Slices
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 09 Slices" href="//localhost:1313/series/a-guide-to-go-programming/09-slices/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">10 Ranges
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 10 Ranges" href="//localhost:1313/series/a-guide-to-go-programming/10-ranges/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">11 Maps
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 11 Maps" href="//localhost:1313/series/a-guide-to-go-programming/11-maps/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">12 Structs 2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 12 Structs 2" href="//localhost:1313/series/a-guide-to-go-programming/12-structs-2/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">13 Functional Programming Concepts
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 13 Functional Programming Concepts" href="//localhost:1313/series/a-guide-to-go-programming/13-functional-programming-concepts/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">14 Object Oriented Like Behaviors
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 14 Object Oriented Like Behaviors" href="//localhost:1313/series/a-guide-to-go-programming/14-object-oriented-like-behaviors/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">15 Methods
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 15 Methods" href="//localhost:1313/series/a-guide-to-go-programming/15-methods/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">16 Interfaces
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 16 Interfaces" href="//localhost:1313/series/a-guide-to-go-programming/16-interfaces/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">17 Types
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 17 Types" href="//localhost:1313/series/a-guide-to-go-programming/17-types/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">18 Stringers
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 18 Stringers" href="//localhost:1313/series/a-guide-to-go-programming/18-stringers/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">19 Errors and Error Handling
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 19 Errors and Error Handling" href="//localhost:1313/series/a-guide-to-go-programming/19-errors-and-error-handling/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">20 Packages
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 20 Packages" href="//localhost:1313/series/a-guide-to-go-programming/20-packages/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">21 Channels
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 21 Channels" href="//localhost:1313/series/a-guide-to-go-programming/21-channels/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">22 Mutexes
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 22 Mutexes" href="//localhost:1313/series/a-guide-to-go-programming/22-mutexes/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">23 FileIO
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 23 FileIO" href="//localhost:1313/series/a-guide-to-go-programming/23-fileio/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">24 Larger Projects
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 24 Larger Projects" href="//localhost:1313/series/a-guide-to-go-programming/24-larger-projects/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">25 Generics
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 25 Generics" href="//localhost:1313/series/a-guide-to-go-programming/25-generics/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">26 Enumerables
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 26 Enumerables" href="//localhost:1313/series/a-guide-to-go-programming/26-enumerables/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/">Christopher Smith</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://www.youtube.com/watch?v=SiJie3Z7DG8&pp=ygUSd2VlemVyIGJ1ZGR5IGhvbGx5" rel="noopener noreferrer" target="_blank">Love</a> &
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" rel="noopener" target="_blank">Persistance</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

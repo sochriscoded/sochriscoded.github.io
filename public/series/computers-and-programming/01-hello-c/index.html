@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>01 Hello World | Christopher Smith</title>
+<meta name="keywords" content="C Programming, Computer Systems, Data Structures, Algorithms">
+<meta name="description" content="And God Said: Let There Be Byte
+The Bible and Torah begin their story with the Creation account, and it is simple: God in those stories creates the universe from matter and its opposite: Night and Day, Light and Dark, Earth and Water, Animals and Human. Equals but opposites. Truths and falses. In a sense, computers are no different. The very heart of why computers even work the way they do is from this simple on or off principle: 1 or 0, truth or false. The literal smallest possible bit of information.">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313/series/computers-and-programming/01-hello-c/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/series/computers-and-programming/01-hello-c/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="Christopher Smith (Alt + H)">Christopher Smith</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/series/" title="Learn">
+                    <span>Learn</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      01 Hello World
+    </h1>
+    <div class="post-meta"><span title='2025-06-11 15:13:33 -0600 MDT'>June 11, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="and-god-said-let-there-be-byte">And God Said: Let There Be Byte<a hidden class="anchor" aria-hidden="true" href="#and-god-said-let-there-be-byte">#</a></h2>
+<p>The Bible and Torah begin their story with the Creation account, and it is simple: God in those stories creates the universe from matter and its opposite: Night and Day, Light and Dark, Earth and Water, Animals and Human. Equals but opposites. Truths and falses. In a sense, computers are no different. The very heart of why computers even work the way they do is from this simple on or off principle: 1 or 0, truth or false. The literal smallest possible <em>bit</em> of information.</p>
+<p>In 1936, computers were not things, but people. Secretaries in vast rooms doing calculations, one after the other, sometimes men, but by and large, it was mostly women. This vast man-power was expensive, slow, and if a mistake was made, costly. In an era of super-powers and wars, new ways needed to come about to do large math problems and data calculations in a short time-frame. This was the context in which the first mechanical computers arose.</p>
+<p>In 1936, independent of each other, both Alonzo Church and Alan Turing proved that you could build a machine that did calculations for you. The &ldquo;Church-Turing&rdquo; thesis as it would come to be known, was seminal as it was vital in a slowly beating war machine: The World was stumbling headfirst into war.</p>
+<p>By the time the war has reached full swing, Britan was heavily focused on trying to crack german codes, while across the atlantic, the American war machine needed business caluculations, scientific calculations for the Manhattan project, and advances in radio and telecommunications. Each of these would produce something magificent: the &ldquo;Bomba&rdquo; of Britan, that code-breaker that change the tide of the war, the transitor in 1947 which would forever shape our computers, ENIAC, the first true mechanical computer in the 1940s. Each of these were products of neccesity, not convinience. The US Army needed a way to do calculations and to communicate. The transistor allowed for smaller machines, and the Enigma Breaker changed cryptography forever.</p>
+<h2 id="as-powerful-as-possible">As Powerful as Possible<a hidden class="anchor" aria-hidden="true" href="#as-powerful-as-possible">#</a></h2>
+<p>It is late 1969. At the same time the world has been rocketed into the space age, another just as imporant war is brewing in universities and telecommunications companies. The Space Race didn&rsquo;t just bring us closer to the heavens, it revolutionized our ability to do calculations. We needed a way to make smaller our computers, small enough to fit them into a whole spacecraft. Computers already existed, yes, but they were large, unweildy, and expensive things.</p>
+<p>Captain Bryan Leese, PhD in an <a href="https://www.usmcu.edu/Portals/218/JAMS_Fall%202023_14_2_Leese.pdf">excellent article</a> in the Journal of Advanced Miliary Studies, points out leaders like Ronald Reagan, Lyndon B. Johnson, and Richard Nixon all knew of the strategic importance of computers in a war. Likewise, companies like AT&amp;T Bell Telephone and IBM, as well as universities like MIT, Harvard, and Columbia knew of the power that computers could weild, both now and in the future. With the advent of COBOL in the business world and scientific programming languages like Fortran, there was an immediate need, both militarily and commercially, to build faster, more powerful, more capable computers and programming languages to match them.</p>
+<p>By the 1960&rsquo;s AT&amp;T Bell Telephone had a defacto monopoly on the telecommunications industry. As a result of seemingly endless cash, AT&amp;T had incentive to engage in endless research through the famed Bell Labs in Murray Hills New Jersy. Here they hired the rockstars of the math and computer science world, each person trying to solve a new problem or build some new system that could potentially change the world.</p>
+<p>It is in this hotbed of activity that Dr. Dennis Ritche and Dr. Ken Thompson are hoping to build something that had not yet been achieved: A general-purpose operating system that could run in as many places as possible and could be the launch point for software for anything. They had been stymied over the past 5 years, getting pushback from c-suite executive and middle managers. So, they went skunkworks with their projects, hiding their efforts from the prying eyes of their bosses.</p>
+<p>The first problem they faced was a programming language fast enough to handle throughput for any operating system. However, previous efforts with design the BCPL programming language quickly allowed them to develop the first iteratrst edition of the manual was available publicly and work continued out in the open. The IEEE has a <a href="https://spectrum.ieee.org/the-strange-birth-and-long-life-of-unix">fantastic write-up</a> on the whole story and you should check it out for yourself.</p>
+<p>BCPL proved to be too slow for the evolving needs of linux, but work on improving its design resulted in a language we all are aware of, one whose influce is everywhere: The C Programming Language. C remains a language of lore, one that is still appreciated and reveired, as much as it is used and needed. Bell initally released Unix internally and it was an immediate success. By the time of its public released, Unix became the de facto OS for businesses, universities, and governments, which in turn became the foundations for Apple, Google Microsoft, Oracle, and other large tech companies we know and use today.</p>
+<h2 id="i-robot">I, Robot<a hidden class="anchor" aria-hidden="true" href="#i-robot">#</a></h2>
+<p>The computing world has evolved significantly since 1972 when C was first released to the world. This video is a testament to the rapid change we&rsquo;ve witnessed in even the last 5 years. From large scale, distributed systems, to advances in generative and agentic AI models, technology has become both deeply complex, and also incredibly enmeshed into the fabric of our lives.</p>
+<p>We shout into the void of social media to yell at faceless people we&rsquo;ve never met, all while watching brainrot short form video clips before scrolling and seeing the most recent horrible tragedy from a place we may or may not know the name of. When I was ending high school, our school got chromebooks. The web relies on frameworks that didn&rsquo;t exist 15 years ago, and those frameworks are being replaced by newer frameworks that didn&rsquo;t exist 5 years ago.</p>
+<p>All the while, our understanding of how this technology works is getting worse. Early studies suggest, but in no way conclude, that <a href="https://www.mdpi.com/2075-4698/15/1/6">AI has a significant impact on critical reasoning abilities</a> when used alone as a sole reasoning tool. The very tools we use are becoming more user friendly, but this in turns make the very tools that were once accessable and open to tinkering (like the beloved Commodore 64), or even ones that were &ldquo;user unfriendly&rdquo; like Windows 98 that required knowing how to navigate the file directory was standard. This improved tech literacy over time.</p>
+<h2 id="getting-back-to-basics">Getting Back to Basics<a hidden class="anchor" aria-hidden="true" href="#getting-back-to-basics">#</a></h2>
+<p>My very first programming language was VB.NET, courtosy of my father. He was a business systems developer and he had a vast number of books and scraps of paper with Java code or VB code I would quickly move onto Java and then Javascript, one for learning how to make bad minecraft mods, the other for learning how to make a simple website. And while those languages were great (not visual basic), the reality is that they all relied on something I would take for granted: Jave has OOP and Garbage Collection, Javascript needs HTML and CSS (and knowledge of how the web works and servers, etc.), and visual basic&hellip;. well&hellip;.</p>
+<p>Safe to say, each needs something, an assumption of knowledge, or some system or framework that it sits on top of. By and large, that something is written in either C or C++. C isn&rsquo;t just its own language, it was built to be an even more human readable form of assembly. It did the heavy lifting, the hard work behind the scenes of converting your `printf(&ldquo;Hello, World!&rdquo;);&quot; into the machine code. But C&rsquo;s assumptions exist in something more archaic, the foundations of computer science and systems programming itself, which makes it more difficult for new learners to approach but essential to get beyond just the surface of what makes computer science so fascinating.</p>
+<p>You don&rsquo;t need to learn C to be a good programmer, an excellent developer, or a respected leader. Many fantastic developers go on to lead successful careers without having this knowledge under their belt. I want you to consider a journey with me: Why do computers work the way they do? How did we even get here? What even is computing? Most importantly, I want you to ask yourself: &ldquo;How does X thing work? If I were to build it myself, what would I do?&rdquo;</p>
+<p>My goal with this video series, and with this channel overall, is to build curiosity and knowledge. To allow you, a normal person, to learn something that will make you smarter, even if you decide &ldquo;maybe software engineering isn&rsquo;t the path for me.&rdquo; You can use the critical reasoning skills and problem solving abilities to make your own life better (and maybe even automate some things along the way).</p>
+<h2 id="our-journey">Our Journey<a hidden class="anchor" aria-hidden="true" href="#our-journey">#</a></h2>
+<p>To start us off, we actually need to know what goes on inside of a computer, and why our programming language of choice (C), works the way it does. We will cover everything from what data even is, to how we can organize it into a system that we call a computer. From there, our world will open up in other areas. Unlike a lot of other places and resources, we won&rsquo;t be splitting up learning how to program from learning about computer system, data structures, and algorithms. In university courses these things are split up for a varity of reasons.</p>
+<p>First, almost all schools have internal or external knowledge and standards requirements that they must meet for each course. Second, courses are anywhere between only between 8-14 weeks long and thus don&rsquo;t have the time to cover eveything all at once. However, I can do whatever I want and will be covering all three of these subject together. In this way, you can get a complete, non-sequestered view of how things actually work together.</p>
+<h2 id="resources-for-c">Resources for C<a hidden class="anchor" aria-hidden="true" href="#resources-for-c">#</a></h2>
+<p>There are SO many resources out there for learning the C programming language, for learning Assembly, which, yes, we will learn and it will be FUN and EXCITING (not scary, just different). I can&rsquo;t list them all, but I want to list the ones that I think are the best.</p>
+<p><a href="https://beej.us/guide/bgc/html/split/">Beej&rsquo;s Guide to C Programming</a></p>
+<p><a href="https://www.c-language.org/">The C Language Website</a></p>
+<p><a href="https://publications.gbdirect.co.uk/c_book/">The C Book</a></p>
+<p><a href="https://inria.hal.science/hal-02383654">Modern C</a></p>
+<p><a href="https://www.amazon.com/gp/product/0131103628">The K&amp;R C Programming Book</a></p>
+<p><a href="http://knking.com/books/c2/index.html">C Programming: A Modern Approach</a></p>
+<p><a href="https://www.amazon.com/Effective-Introduction-Professional-Robert-Seacord/dp/1718501048">Effective C</a></p>
+<p><a href="https://www.amazon.com/Bare-Metal-C-Stephen-Oualline/dp/1718501625">Bare Metal C</a></p>
+<h2 id="resources-for-systems">Resources for Systems<a hidden class="anchor" aria-hidden="true" href="#resources-for-systems">#</a></h2>
+<p><a href="https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X">Computer Systems: A Programmer&rsquo;s Perspective</a></p>
+<p><a href="https://diveintosystems.org/">Dive into Systems</a></p>
+<p><a href="https://www.amazon.com/Amps-Apps-How-Computers-Work/dp/1718500661">How Computers Really Work</a></p>
+<p><a href="https://nostarch.com/introcomporg">Introduction to Computer Organization x86</a></p>
+<p><a href="https://nostarch.com/introcomputerorgforarm">Introduction to Computer Organization ARM</a></p>
+<p><a href="https://www.nand2tetris.org/">The Elements of Computing Systems</a></p>
+<h2 id="resources-for-network-programming">Resources for Network Programming<a hidden class="anchor" aria-hidden="true" href="#resources-for-network-programming">#</a></h2>
+<p><a href="https://beej.us/guide/bgnet/">Beej&rsquo;s Guide to Network Programming</a></p>
+<p><a href="https://beej.us/guide/bgnet0/">Beej&rsquo;s Guide to Network Concepts</a></p>
+<p><a href="https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149">Computer Networking: A Top-Down Approach</a></p>
+<h2 id="resources-for-data-structures-and-algorithms">Resources for Data Structures and Algorithms<a hidden class="anchor" aria-hidden="true" href="#resources-for-data-structures-and-algorithms">#</a></h2>
+<p><a href="https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844">Introduction to Algorithms</a></p>
+<p><a href="https://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402">Algorithms</a></p>
+<p><a href="https://www.amazon.com/Algorithms-Adventurous-Bradford-Tuckfield/dp/1718500688">Dive into Algorithms</a></p>
+<p><a href="https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202">The Algorithm Design Manual</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="//localhost:1313/tags/c-programming/">C Programming</a></li>
+      <li><a href="//localhost:1313/tags/computer-systems/">Computer Systems</a></li>
+      <li><a href="//localhost:1313/tags/data-structures/">Data Structures</a></li>
+      <li><a href="//localhost:1313/tags/algorithms/">Algorithms</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/">Christopher Smith</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://www.youtube.com/watch?v=SiJie3Z7DG8&pp=ygUSd2VlemVyIGJ1ZGR5IGhvbGx5" rel="noopener noreferrer" target="_blank">Love</a> &
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" rel="noopener" target="_blank">Persistance</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

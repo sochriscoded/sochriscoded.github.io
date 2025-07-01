@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Structures and Algorithms in Go on Christopher Smith</title>
+    <link>//localhost:1313/series/data-structures-and-algorithms-in-go/</link>
+    <description>Recent content in Data Structures and Algorithms in Go on Christopher Smith</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/series/data-structures-and-algorithms-in-go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Introduction to Algorithms and Data Structures</title>
+      <link>//localhost:1313/series/ds-and-a/01-intro-algo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/01-intro-algo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>01 Introduction to Algorithms and Data Structures</title>
+      <link>//localhost:1313/series/ds-and-a/12-rb-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/12-rb-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>02 Math for Data Structures and Algorithms</title>
+      <link>//localhost:1313/series/ds-and-a/02-dsa-math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/02-dsa-math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>03 Big O Notation</title>
+      <link>//localhost:1313/series/ds-and-a/03-big-o-notation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/03-big-o-notation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>04 Sorting Part 1</title>
+      <link>//localhost:1313/series/ds-and-a/04-sorting-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/04-sorting-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>05 Divide and Conquer</title>
+      <link>//localhost:1313/series/ds-and-a/05-divide-and-conquer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/05-divide-and-conquer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>06 Random Algorithms</title>
+      <link>//localhost:1313/series/ds-and-a/06-random-algos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/06-random-algos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>07 Sorting Part 2</title>
+      <link>//localhost:1313/series/ds-and-a/07-sorting2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/07-sorting2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>08 Lists and Arrays</title>
+      <link>//localhost:1313/series/ds-and-a/08-lists-and-arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/08-lists-and-arrays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>09 Maps and Tables</title>
+      <link>//localhost:1313/series/ds-and-a/09-maps-and-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/09-maps-and-tables/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>10 Stacks and Queues</title>
+      <link>//localhost:1313/series/ds-and-a/10-stacks-and-queues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/10-stacks-and-queues/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>11 Binary Trees</title>
+      <link>//localhost:1313/series/ds-and-a/11-binary-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/11-binary-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>13 OS Trees</title>
+      <link>//localhost:1313/series/ds-and-a/13-os-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/13-os-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>14 I Trees</title>
+      <link>//localhost:1313/series/ds-and-a/14-i-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/14-i-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>15 Dynamic Programming</title>
+      <link>//localhost:1313/series/ds-and-a/15-dynamic-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/15-dynamic-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>16 Greedy Algorithms</title>
+      <link>//localhost:1313/series/ds-and-a/16-greedy-algos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/16-greedy-algos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>17 Amortized Analysis</title>
+      <link>//localhost:1313/series/ds-and-a/17-amortized-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/17-amortized-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18 An Introduction to Graph Theory</title>
+      <link>//localhost:1313/series/ds-and-a/18-intro-graph-theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/18-intro-graph-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>19 Breadth First Search and Depth First Search</title>
+      <link>//localhost:1313/series/ds-and-a/19-bfs-and-dfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/19-bfs-and-dfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>20 Introduction to Complexity Theory</title>
+      <link>//localhost:1313/series/ds-and-a/20-intro-complexity-theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/20-intro-complexity-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>21 B Trees</title>
+      <link>//localhost:1313/series/ds-and-a/21-b-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/21-b-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>22 Fibonachi Heaps</title>
+      <link>//localhost:1313/series/ds-and-a/22-fib-heaps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/22-fib-heaps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>23 Disjoint Sets</title>
+      <link>//localhost:1313/series/ds-and-a/23-disjoint-sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/23-disjoint-sets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>24 VEB Trees</title>
+      <link>//localhost:1313/series/ds-and-a/24-veb-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/24-veb-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>25 Minimum Spanning Trees</title>
+      <link>//localhost:1313/series/ds-and-a/25-ms-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/25-ms-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>26 SSS Paths</title>
+      <link>//localhost:1313/series/ds-and-a/26-sss-paths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/26-sss-paths/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>27 All Pairs</title>
+      <link>//localhost:1313/series/ds-and-a/27-all-pairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/27-all-pairs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>28 Max Flow</title>
+      <link>//localhost:1313/series/ds-and-a/28-max-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/28-max-flow/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

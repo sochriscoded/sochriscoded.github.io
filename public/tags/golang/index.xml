@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Golang on Christopher Smith</title>
+    <link>//localhost:1313/tags/golang/</link>
+    <description>Recent content in Golang on Christopher Smith</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 An Introduction to Go</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/01-an-introduction-to-go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/01-an-introduction-to-go/</guid>
+      <description>&lt;h2 id=&#34;why-go&#34;&gt;Why Go&lt;/h2&gt;
+&lt;p&gt;In a world overflowing with programming languages, Go (or Golang) stands out not just for what it does,but for why it was created in the first place. Born at Google in the late 2000s, Go was forged in the fires of frustration. Its creators,Robert Griesemer, Rob Pike, and Ken Thompson,were all veterans of systems programming and distributed systems, and they were growing weary of the complex build times, clunky dependency management, and lack of scalability in existing languages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>01 Introduction to Algorithms and Data Structures</title>
+      <link>//localhost:1313/series/ds-and-a/01-intro-algo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/01-intro-algo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>01 Introduction to Algorithms and Data Structures</title>
+      <link>//localhost:1313/series/ds-and-a/12-rb-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/12-rb-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>02 Hello World</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/02-hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/02-hello-world/</guid>
+      <description>&lt;p&gt;When Go was initially designed, it was built with the intent of being a &amp;ldquo;Modern C&amp;rdquo; or a reimagining of what C would be like, had it been invented in the Year of our Lord Alan Turing, 2015.&lt;/p&gt;
+&lt;p&gt;Go is a compiled, strongly typed, multi-paradigmed, garbage-collected language that focuses on simplicity and speed rather than a vast type system, or single-paradigm behavior.&lt;/p&gt;
+&lt;p&gt;It has recieved critical acclaim as well as criticism from throughout the community but its nature has lent itself well to becoming a solid choice for backend, service-centered architecture, while remaining fast and memory-safe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>02 Math for Data Structures and Algorithms</title>
+      <link>//localhost:1313/series/ds-and-a/02-dsa-math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/02-dsa-math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>03 Big O Notation</title>
+      <link>//localhost:1313/series/ds-and-a/03-big-o-notation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/03-big-o-notation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>03 Variables and Statements</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/03-variables-and-statements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/03-variables-and-statements/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>04 Functions 1</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/04-functions-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/04-functions-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>04 Sorting Part 1</title>
+      <link>//localhost:1313/series/ds-and-a/04-sorting-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/04-sorting-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>05 Divide and Conquer</title>
+      <link>//localhost:1313/series/ds-and-a/05-divide-and-conquer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/05-divide-and-conquer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>05 Functions 2</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/05-functions-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/05-functions-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>06 Random Algorithms</title>
+      <link>//localhost:1313/series/ds-and-a/06-random-algos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/06-random-algos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>06 Structs</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/06-structs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/06-structs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>07 Pointers</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/07-pointers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/07-pointers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>07 Sorting Part 2</title>
+      <link>//localhost:1313/series/ds-and-a/07-sorting2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/07-sorting2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>08 Arrays</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/08-arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/08-arrays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>08 Lists and Arrays</title>
+      <link>//localhost:1313/series/ds-and-a/08-lists-and-arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/08-lists-and-arrays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>09 Maps and Tables</title>
+      <link>//localhost:1313/series/ds-and-a/09-maps-and-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/09-maps-and-tables/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>09 Slices</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/09-slices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/09-slices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>10 Ranges</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/10-ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/10-ranges/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>10 Stacks and Queues</title>
+      <link>//localhost:1313/series/ds-and-a/10-stacks-and-queues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/10-stacks-and-queues/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>11 Binary Trees</title>
+      <link>//localhost:1313/series/ds-and-a/11-binary-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/11-binary-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>11 Maps</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/11-maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/11-maps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>12 Structs 2</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/12-structs-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/12-structs-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>13 Functional Programming Concepts</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/13-functional-programming-concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/13-functional-programming-concepts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>13 OS Trees</title>
+      <link>//localhost:1313/series/ds-and-a/13-os-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/13-os-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>14 I Trees</title>
+      <link>//localhost:1313/series/ds-and-a/14-i-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/14-i-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>14 Object Oriented Like Behaviors</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/14-object-oriented-like-behaviors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/14-object-oriented-like-behaviors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>15 Dynamic Programming</title>
+      <link>//localhost:1313/series/ds-and-a/15-dynamic-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/15-dynamic-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>15 Methods</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/15-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/15-methods/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>16 Greedy Algorithms</title>
+      <link>//localhost:1313/series/ds-and-a/16-greedy-algos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/16-greedy-algos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>16 Interfaces</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/16-interfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/16-interfaces/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>17 Amortized Analysis</title>
+      <link>//localhost:1313/series/ds-and-a/17-amortized-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/17-amortized-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>17 Types</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/17-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/17-types/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18 An Introduction to Graph Theory</title>
+      <link>//localhost:1313/series/ds-and-a/18-intro-graph-theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/18-intro-graph-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18 Stringers</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/18-stringers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/18-stringers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>19 Breadth First Search and Depth First Search</title>
+      <link>//localhost:1313/series/ds-and-a/19-bfs-and-dfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/19-bfs-and-dfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>19 Errors and Error Handling</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/19-errors-and-error-handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/19-errors-and-error-handling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>20 Introduction to Complexity Theory</title>
+      <link>//localhost:1313/series/ds-and-a/20-intro-complexity-theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/20-intro-complexity-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>20 Packages</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/20-packages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/20-packages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>21 B Trees</title>
+      <link>//localhost:1313/series/ds-and-a/21-b-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/21-b-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>21 Channels</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/21-channels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/21-channels/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>22 Fibonachi Heaps</title>
+      <link>//localhost:1313/series/ds-and-a/22-fib-heaps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/22-fib-heaps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>22 Mutexes</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/22-mutexes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/22-mutexes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>23 Disjoint Sets</title>
+      <link>//localhost:1313/series/ds-and-a/23-disjoint-sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/23-disjoint-sets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>23 FileIO</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/23-fileio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/23-fileio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>24 Larger Projects</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/24-larger-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/24-larger-projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>24 VEB Trees</title>
+      <link>//localhost:1313/series/ds-and-a/24-veb-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/24-veb-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>25 Generics</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/25-generics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/25-generics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>25 Minimum Spanning Trees</title>
+      <link>//localhost:1313/series/ds-and-a/25-ms-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/25-ms-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>26 Enumerables</title>
+      <link>//localhost:1313/series/a-guide-to-go-programming/26-enumerables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/a-guide-to-go-programming/26-enumerables/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>26 SSS Paths</title>
+      <link>//localhost:1313/series/ds-and-a/26-sss-paths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/26-sss-paths/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>27 All Pairs</title>
+      <link>//localhost:1313/series/ds-and-a/27-all-pairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/27-all-pairs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>28 Max Flow</title>
+      <link>//localhost:1313/series/ds-and-a/28-max-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/ds-and-a/28-max-flow/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

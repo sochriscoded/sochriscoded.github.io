@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Computers and Programming on Christopher Smith</title>
+    <link>//localhost:1313/series/computers-and-programming/</link>
+    <description>Recent content in Computers and Programming on Christopher Smith</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2025 15:13:33 -0600</lastBuildDate>
+    <atom:link href="//localhost:1313/series/computers-and-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Hello World</title>
+      <link>//localhost:1313/series/computers-and-programming/01-hello-c/</link>
+      <pubDate>Wed, 11 Jun 2025 15:13:33 -0600</pubDate>
+      <guid>//localhost:1313/series/computers-and-programming/01-hello-c/</guid>
+      <description>&lt;h2 id=&#34;and-god-said-let-there-be-byte&#34;&gt;And God Said: Let There Be Byte&lt;/h2&gt;
+&lt;p&gt;The Bible and Torah begin their story with the Creation account, and it is simple: God in those stories creates the universe from matter and its opposite: Night and Day, Light and Dark, Earth and Water, Animals and Human. Equals but opposites. Truths and falses. In a sense, computers are no different. The very heart of why computers even work the way they do is from this simple on or off principle: 1 or 0, truth or false. The literal smallest possible &lt;em&gt;bit&lt;/em&gt; of information.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

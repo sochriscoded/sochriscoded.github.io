@@ -1,7 +1,9 @@
 baseURL = 'sochriscoded.github.io'
 languageCode = 'en-us'
-title = 'Chris Coded'
+title = 'Christopher Smith'
 theme = 'chriscoded'
+
+pagination.pagerSize = 100
 
 [[menu.main]]
 identifier = "blog"
@@ -10,28 +12,16 @@ url = "/blog/"
 weight = 10
 
 [[menu.main]]
-identifier = "exercises"
-name = "Exercises"
-url = "/exercises/"
+identifier = "series"
+name = "Learn"
+url = "/series/"
 weight = 20
 
 [[menu.main]]
-identifier = "guides"
-name = "Guides"
-url = "/guides/"
+identifier = "about"
+name = "About"
+url = "/about/"
 weight = 30
-
-[[menu.main]]
-identifier = "tutorials"
-name = "Tutorials"
-url = "/tutorials/"
-weight = 40
-
-[[menu.main]]
-identifier = "series"
-name = "Series"
-url = "/series/"
-weight = 50
 
 [caches]
   [caches.images]
@@ -41,3 +31,33 @@ weight = 50
   tag = "tags"
   category = "categories"
   series = "series"
+
+
+[params.profileMode]
+enabled = true
+title = "Chris Coded"
+subtitle = "Southern Hospitality Flavored Computer Science"
+imageUrl = "logo.png"
+imageTitle = "Chris Coded"
+imageWidth = 120
+imageHeight = 120
+
+  [[params.profileMode.buttons]]
+  name = "Blog"
+  url = "/blog"
+
+  [[params.profileMode.buttons]]
+  name = "Learn"
+  url = "/series/"
+
+  [[params.profileMode.buttons]]
+  name = "Github"
+  url = "https://www.github.com/sochriscoded"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "www.x.com/sochriscoded"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "www.youtube.com/@sochriscoded"
