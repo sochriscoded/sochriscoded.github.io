@@ -4,7 +4,7 @@
     <title>Golang on Christopher Smith</title>
     <link>//localhost:1313/tags/golang/</link>
     <description>Recent content in Golang on Christopher Smith</description>
-    <generator>Hugo -- 0.147.9</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
     <atom:link href="//localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -113,7 +113,16 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/05-functions-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/05-functions-2/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;functions-formally&#34;&gt;Functions Formally&lt;/h2&gt;
+&lt;h3 id=&#34;functions-in-math&#34;&gt;Functions in Math&lt;/h3&gt;
+&lt;h3 id=&#34;functions-vs-routines-vs-procedures-vs-methods&#34;&gt;Functions vs Routines vs Procedures vs Methods&lt;/h3&gt;
+&lt;h2 id=&#34;higher-order-functions&#34;&gt;Higher-Order Functions&lt;/h2&gt;
+&lt;h3 id=&#34;functions-as-values&#34;&gt;Functions as Values&lt;/h3&gt;
+&lt;h3 id=&#34;anonymous-functions&#34;&gt;Anonymous Functions&lt;/h3&gt;
+&lt;h2 id=&#34;scope-basics&#34;&gt;Scope Basics&lt;/h2&gt;
+&lt;h3 id=&#34;the-defer-keyword&#34;&gt;The Defer Keyword&lt;/h3&gt;
+&lt;h2 id=&#34;function-closures&#34;&gt;Function Closures&lt;/h2&gt;
+&lt;h2 id=&#34;function-currying-and-function-deconstruction&#34;&gt;Function Currying and Function Deconstruction&lt;/h2&gt;</description>
     </item>
     <item>
       <title>06 Random Algorithms</title>
@@ -127,14 +136,29 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/06-structs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/06-structs/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;structs-basics&#34;&gt;Structs Basics&lt;/h2&gt;
+&lt;h3 id=&#34;struct-fields&#34;&gt;Struct Fields&lt;/h3&gt;
+&lt;h3 id=&#34;struct-literals&#34;&gt;Struct Literals&lt;/h3&gt;
+&lt;h2 id=&#34;nested-structs&#34;&gt;Nested Structs&lt;/h2&gt;
+&lt;h2 id=&#34;anonymous-structs&#34;&gt;Anonymous Structs&lt;/h2&gt;
+&lt;h2 id=&#34;embedded-structs&#34;&gt;Embedded Structs&lt;/h2&gt;
+&lt;h2 id=&#34;struct-methods&#34;&gt;Struct Methods&lt;/h2&gt;
+&lt;h2 id=&#34;memory-layout-of-a-struct&#34;&gt;Memory Layout of a Struct&lt;/h2&gt;
+&lt;h2 id=&#34;empty-structs&#34;&gt;Empty Structs&lt;/h2&gt;</description>
     </item>
     <item>
       <title>07 Pointers</title>
       <link>//localhost:1313/series/a-guide-to-go-programming/07-pointers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/07-pointers/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction-to-pointers&#34;&gt;Introduction to Pointers&lt;/h2&gt;
+&lt;h2 id=&#34;why-pointers&#34;&gt;Why Pointers&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;h2 id=&#34;passing-by-reference&#34;&gt;Passing by Reference&lt;/h2&gt;
+&lt;h2 id=&#34;passing-by-value-and-passing-by-reference&#34;&gt;Passing by Value and Passing by Reference&lt;/h2&gt;
+&lt;h2 id=&#34;nil-pointer&#34;&gt;Nil Pointer&lt;/h2&gt;
+&lt;h2 id=&#34;pointer-recievers&#34;&gt;Pointer Recievers&lt;/h2&gt;
+&lt;h2 id=&#34;pointers-in-go-vs-pointers-in-c&#34;&gt;Pointers in Go vs Pointers in C&lt;/h2&gt;</description>
     </item>
     <item>
       <title>07 Sorting Part 2</title>
@@ -148,7 +172,10 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/08-arrays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/08-arrays/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;what-is-an-array&#34;&gt;What is an Array?&lt;/h2&gt;
+&lt;h2 id=&#34;differences-between-arrays-lists-slices-and-variable-length-arrays&#34;&gt;Differences between Arrays, Lists, Slices, and Variable-Length Arrays&lt;/h2&gt;
+&lt;h2 id=&#34;methods-and-behavior-of-arrays&#34;&gt;Methods and Behavior of Arrays&lt;/h2&gt;
+&lt;h2 id=&#34;memory-layout-of-arrays&#34;&gt;Memory layout of Arrays&lt;/h2&gt;</description>
     </item>
     <item>
       <title>08 Lists and Arrays</title>
@@ -169,14 +196,20 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/09-slices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/09-slices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>10 Ranges</title>
-      <link>//localhost:1313/series/a-guide-to-go-programming/10-ranges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/series/a-guide-to-go-programming/10-ranges/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;featurs-of-slices&#34;&gt;Featurs of Slices&lt;/h2&gt;
+&lt;h3 id=&#34;slices-as-array-references&#34;&gt;Slices as Array References&lt;/h3&gt;
+&lt;h3 id=&#34;slice-literals&#34;&gt;Slice Literals&lt;/h3&gt;
+&lt;h3 id=&#34;slice-defaults&#34;&gt;Slice Defaults&lt;/h3&gt;
+&lt;h3 id=&#34;slice-length-and-capacity&#34;&gt;Slice Length and Capacity&lt;/h3&gt;
+&lt;h3 id=&#34;nil-slices&#34;&gt;Nil Slices&lt;/h3&gt;
+&lt;h3 id=&#34;creating-slices-with-make&#34;&gt;Creating Slices with Make&lt;/h3&gt;
+&lt;h3 id=&#34;slicing-slices&#34;&gt;Slicing Slices&lt;/h3&gt;
+&lt;h3 id=&#34;functions-and-methods-of-slices&#34;&gt;functions and methods of slices&lt;/h3&gt;
+&lt;h2 id=&#34;when-to-use-slices-and-when-to-use-arrays&#34;&gt;When to use Slices and When to use Arrays&lt;/h2&gt;
+&lt;h2 id=&#34;-ranges-over-slices&#34;&gt;## Ranges over Slices&lt;/h2&gt;
+&lt;h3 id=&#34;ranges-are-for-loops&#34;&gt;Ranges are For Loops&lt;/h3&gt;
+&lt;h3 id=&#34;using-the-_-keywork-with-ranges&#34;&gt;Using the _ keywork with Ranges&lt;/h3&gt;
+&lt;h2 id=&#34;varidic-functions&#34;&gt;Varidic Functions&lt;/h2&gt;</description>
     </item>
     <item>
       <title>10 Stacks and Queues</title>
@@ -197,14 +230,14 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/11-maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/11-maps/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>12 Structs 2</title>
-      <link>//localhost:1313/series/a-guide-to-go-programming/12-structs-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/series/a-guide-to-go-programming/12-structs-2/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;similarities-to-maps-in-other-languages&#34;&gt;Similarities to Maps in other Languages&lt;/h2&gt;
+&lt;h2 id=&#34;mutations&#34;&gt;Mutations&lt;/h2&gt;
+&lt;h2 id=&#34;key-types&#34;&gt;Key Types&lt;/h2&gt;
+&lt;h2 id=&#34;count-instances&#34;&gt;Count Instances&lt;/h2&gt;
+&lt;h2 id=&#34;maps-hold-references&#34;&gt;Maps Hold References&lt;/h2&gt;
+&lt;h2 id=&#34;map-literals&#34;&gt;Map Literals&lt;/h2&gt;
+&lt;h2 id=&#34;functions-for-maps&#34;&gt;Functions for Maps&lt;/h2&gt;
+&lt;h2 id=&#34;nested-maps&#34;&gt;Nested Maps&lt;/h2&gt;</description>
     </item>
     <item>
       <title>13 Functional Programming Concepts</title>

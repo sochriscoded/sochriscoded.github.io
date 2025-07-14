@@ -4,7 +4,7 @@
     <title>The Home Page on Christopher Smith</title>
     <link>//localhost:1313/</link>
     <description>Recent content in The Home Page on Christopher Smith</description>
-    <generator>Hugo -- 0.147.9</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Jun 2025 12:32:21 -0600</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -24,6 +24,13 @@
 &lt;p&gt;In a world overflowing with programming languages, Go (or Golang) stands out not just for what it does,but for why it was created in the first place. Born at Google in the late 2000s, Go was forged in the fires of frustration. Its creators,Robert Griesemer, Rob Pike, and Ken Thompson,were all veterans of systems programming and distributed systems, and they were growing weary of the complex build times, clunky dependency management, and lack of scalability in existing languages.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>01 Building our First CRUD App in Go!</title>
+      <link>//localhost:1313/series/your-first-application-in-go/01-introduction-and-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/01-introduction-and-setup/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>01 Introduction to Algorithms and Data Structures</title>
       <link>//localhost:1313/series/ds-and-a/01-intro-algo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -35,6 +42,27 @@
       <link>//localhost:1313/series/ds-and-a/12-rb-trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/ds-and-a/12-rb-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>01 Introduction to Networks</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/01-introduction-to-networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/01-introduction-to-networks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>02 An Overview of Networks</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/02-an-overview-of-networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/02-an-overview-of-networks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>02 Building a Simple HTTP Server</title>
+      <link>//localhost:1313/series/your-first-application-in-go/02-the-http-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/02-the-http-server/</guid>
       <description></description>
     </item>
     <item>
@@ -58,6 +86,13 @@
       <link>//localhost:1313/series/ds-and-a/03-big-o-notation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/ds-and-a/03-big-o-notation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>03 Go Web Frameworks</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/03-introduction-go-frameworks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/03-introduction-go-frameworks/</guid>
       <description></description>
     </item>
     <item>
@@ -85,6 +120,13 @@
 &lt;h4 id=&#34;continue-and-break&#34;&gt;Continue and Break&lt;/h4&gt;</description>
     </item>
     <item>
+      <title>03 What are Data Models?</title>
+      <link>//localhost:1313/series/your-first-application-in-go/03-data-models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/03-data-models/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>04 Functions 1</title>
       <link>//localhost:1313/series/a-guide-to-go-programming/04-functions-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -103,10 +145,31 @@
 &lt;h3 id=&#34;project-1-fizz-buzz&#34;&gt;Project 1: Fizz Buzz&lt;/h3&gt;</description>
     </item>
     <item>
+      <title>04 Introducing APIs</title>
+      <link>//localhost:1313/series/your-first-application-in-go/04-intro-to-apis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/04-intro-to-apis/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>04 Sorting Part 1</title>
       <link>//localhost:1313/series/ds-and-a/04-sorting-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/ds-and-a/04-sorting-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>04 The Layered Network Model</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/04-the-layered-network-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/04-the-layered-network-model/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>05 Building an HTTP Client</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/05-building-an-http-client/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/05-building-an-http-client/</guid>
       <description></description>
     </item>
     <item>
@@ -121,6 +184,36 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/05-functions-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/05-functions-2/</guid>
+      <description>&lt;h2 id=&#34;functions-formally&#34;&gt;Functions Formally&lt;/h2&gt;
+&lt;h3 id=&#34;functions-in-math&#34;&gt;Functions in Math&lt;/h3&gt;
+&lt;h3 id=&#34;functions-vs-routines-vs-procedures-vs-methods&#34;&gt;Functions vs Routines vs Procedures vs Methods&lt;/h3&gt;
+&lt;h2 id=&#34;higher-order-functions&#34;&gt;Higher-Order Functions&lt;/h2&gt;
+&lt;h3 id=&#34;functions-as-values&#34;&gt;Functions as Values&lt;/h3&gt;
+&lt;h3 id=&#34;anonymous-functions&#34;&gt;Anonymous Functions&lt;/h3&gt;
+&lt;h2 id=&#34;scope-basics&#34;&gt;Scope Basics&lt;/h2&gt;
+&lt;h3 id=&#34;the-defer-keyword&#34;&gt;The Defer Keyword&lt;/h3&gt;
+&lt;h2 id=&#34;function-closures&#34;&gt;Function Closures&lt;/h2&gt;
+&lt;h2 id=&#34;function-currying-and-function-deconstruction&#34;&gt;Function Currying and Function Deconstruction&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>05 Retrieving our Data with GET</title>
+      <link>//localhost:1313/series/your-first-application-in-go/05-getting-the-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/05-getting-the-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>06 Building an HTTP Server</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/06-building-an-http-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/06-building-an-http-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>06 Creating Data with POST</title>
+      <link>//localhost:1313/series/your-first-application-in-go/06-posting-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/06-posting-data/</guid>
       <description></description>
     </item>
     <item>
@@ -135,6 +228,21 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/06-structs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/06-structs/</guid>
+      <description>&lt;h2 id=&#34;structs-basics&#34;&gt;Structs Basics&lt;/h2&gt;
+&lt;h3 id=&#34;struct-fields&#34;&gt;Struct Fields&lt;/h3&gt;
+&lt;h3 id=&#34;struct-literals&#34;&gt;Struct Literals&lt;/h3&gt;
+&lt;h2 id=&#34;nested-structs&#34;&gt;Nested Structs&lt;/h2&gt;
+&lt;h2 id=&#34;anonymous-structs&#34;&gt;Anonymous Structs&lt;/h2&gt;
+&lt;h2 id=&#34;embedded-structs&#34;&gt;Embedded Structs&lt;/h2&gt;
+&lt;h2 id=&#34;struct-methods&#34;&gt;Struct Methods&lt;/h2&gt;
+&lt;h2 id=&#34;memory-layout-of-a-struct&#34;&gt;Memory Layout of a Struct&lt;/h2&gt;
+&lt;h2 id=&#34;empty-structs&#34;&gt;Empty Structs&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>07 Diving Into IP</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/07-diving-into-ip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/07-diving-into-ip/</guid>
       <description></description>
     </item>
     <item>
@@ -142,7 +250,14 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/07-pointers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/07-pointers/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction-to-pointers&#34;&gt;Introduction to Pointers&lt;/h2&gt;
+&lt;h2 id=&#34;why-pointers&#34;&gt;Why Pointers&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;h2 id=&#34;passing-by-reference&#34;&gt;Passing by Reference&lt;/h2&gt;
+&lt;h2 id=&#34;passing-by-value-and-passing-by-reference&#34;&gt;Passing by Value and Passing by Reference&lt;/h2&gt;
+&lt;h2 id=&#34;nil-pointer&#34;&gt;Nil Pointer&lt;/h2&gt;
+&lt;h2 id=&#34;pointer-recievers&#34;&gt;Pointer Recievers&lt;/h2&gt;
+&lt;h2 id=&#34;pointers-in-go-vs-pointers-in-c&#34;&gt;Pointers in Go vs Pointers in C&lt;/h2&gt;</description>
     </item>
     <item>
       <title>07 Sorting Part 2</title>
@@ -152,10 +267,34 @@
       <description></description>
     </item>
     <item>
+      <title>07 Updating Data with PUT</title>
+      <link>//localhost:1313/series/your-first-application-in-go/07-updating-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/07-updating-data/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>08 Arrays</title>
       <link>//localhost:1313/series/a-guide-to-go-programming/08-arrays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/08-arrays/</guid>
+      <description>&lt;h2 id=&#34;what-is-an-array&#34;&gt;What is an Array?&lt;/h2&gt;
+&lt;h2 id=&#34;differences-between-arrays-lists-slices-and-variable-length-arrays&#34;&gt;Differences between Arrays, Lists, Slices, and Variable-Length Arrays&lt;/h2&gt;
+&lt;h2 id=&#34;methods-and-behavior-of-arrays&#34;&gt;Methods and Behavior of Arrays&lt;/h2&gt;
+&lt;h2 id=&#34;memory-layout-of-arrays&#34;&gt;Memory layout of Arrays&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>08 Deleting Data with DELETE</title>
+      <link>//localhost:1313/series/your-first-application-in-go/08-deleting-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/08-deleting-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>08 Diving into IPv4</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/08-diving-into-ip-version-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/08-diving-into-ip-version-4/</guid>
       <description></description>
     </item>
     <item>
@@ -163,6 +302,20 @@
       <link>//localhost:1313/series/ds-and-a/08-lists-and-arrays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/ds-and-a/08-lists-and-arrays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>09 Diving Into IPv6</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/09-diving-into-ip-version-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/09-diving-into-ip-version-6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>09 Making our HTTP Server Less Ugly</title>
+      <link>//localhost:1313/series/your-first-application-in-go/09-refactoring-our-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/09-refactoring-our-server/</guid>
       <description></description>
     </item>
     <item>
@@ -177,13 +330,33 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/09-slices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/09-slices/</guid>
+      <description>&lt;h2 id=&#34;featurs-of-slices&#34;&gt;Featurs of Slices&lt;/h2&gt;
+&lt;h3 id=&#34;slices-as-array-references&#34;&gt;Slices as Array References&lt;/h3&gt;
+&lt;h3 id=&#34;slice-literals&#34;&gt;Slice Literals&lt;/h3&gt;
+&lt;h3 id=&#34;slice-defaults&#34;&gt;Slice Defaults&lt;/h3&gt;
+&lt;h3 id=&#34;slice-length-and-capacity&#34;&gt;Slice Length and Capacity&lt;/h3&gt;
+&lt;h3 id=&#34;nil-slices&#34;&gt;Nil Slices&lt;/h3&gt;
+&lt;h3 id=&#34;creating-slices-with-make&#34;&gt;Creating Slices with Make&lt;/h3&gt;
+&lt;h3 id=&#34;slicing-slices&#34;&gt;Slicing Slices&lt;/h3&gt;
+&lt;h3 id=&#34;functions-and-methods-of-slices&#34;&gt;functions and methods of slices&lt;/h3&gt;
+&lt;h2 id=&#34;when-to-use-slices-and-when-to-use-arrays&#34;&gt;When to use Slices and When to use Arrays&lt;/h2&gt;
+&lt;h2 id=&#34;-ranges-over-slices&#34;&gt;## Ranges over Slices&lt;/h2&gt;
+&lt;h3 id=&#34;ranges-are-for-loops&#34;&gt;Ranges are For Loops&lt;/h3&gt;
+&lt;h3 id=&#34;using-the-_-keywork-with-ranges&#34;&gt;Using the _ keywork with Ranges&lt;/h3&gt;
+&lt;h2 id=&#34;varidic-functions&#34;&gt;Varidic Functions&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>10 Building Another Web Server</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/10-building-another-web-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/10-building-another-web-server/</guid>
       <description></description>
     </item>
     <item>
-      <title>10 Ranges</title>
-      <link>//localhost:1313/series/a-guide-to-go-programming/10-ranges/</link>
+      <title>10 SQL: Making our Data Stay Put</title>
+      <link>//localhost:1313/series/your-first-application-in-go/10-sql-makinging-our-data-stay-put/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/series/a-guide-to-go-programming/10-ranges/</guid>
+      <guid>//localhost:1313/series/your-first-application-in-go/10-sql-makinging-our-data-stay-put/</guid>
       <description></description>
     </item>
     <item>
@@ -201,17 +374,45 @@
       <description></description>
     </item>
     <item>
+      <title>11 Building our Front End</title>
+      <link>//localhost:1313/series/your-first-application-in-go/11-building-our-front-end/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/11-building-our-front-end/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>11 Endianess and Ints</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/11-endianess-and-ints/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/11-endianess-and-ints/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>11 Maps</title>
       <link>//localhost:1313/series/a-guide-to-go-programming/11-maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/11-maps/</guid>
+      <description>&lt;h2 id=&#34;similarities-to-maps-in-other-languages&#34;&gt;Similarities to Maps in other Languages&lt;/h2&gt;
+&lt;h2 id=&#34;mutations&#34;&gt;Mutations&lt;/h2&gt;
+&lt;h2 id=&#34;key-types&#34;&gt;Key Types&lt;/h2&gt;
+&lt;h2 id=&#34;count-instances&#34;&gt;Count Instances&lt;/h2&gt;
+&lt;h2 id=&#34;maps-hold-references&#34;&gt;Maps Hold References&lt;/h2&gt;
+&lt;h2 id=&#34;map-literals&#34;&gt;Map Literals&lt;/h2&gt;
+&lt;h2 id=&#34;functions-for-maps&#34;&gt;Functions for Maps&lt;/h2&gt;
+&lt;h2 id=&#34;nested-maps&#34;&gt;Nested Maps&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>12 Testing And Polishing Our Application</title>
+      <link>//localhost:1313/series/your-first-application-in-go/12-testing-and-polishing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/your-first-application-in-go/12-testing-and-polishing/</guid>
       <description></description>
     </item>
     <item>
-      <title>12 Structs 2</title>
-      <link>//localhost:1313/series/a-guide-to-go-programming/12-structs-2/</link>
+      <title>12 Understanding Packets</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/12-understanding-packets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/series/a-guide-to-go-programming/12-structs-2/</guid>
+      <guid>//localhost:1313/series/networking-concepts-in-go/12-understanding-packets/</guid>
       <description></description>
     </item>
     <item>
@@ -229,6 +430,13 @@
       <description></description>
     </item>
     <item>
+      <title>13 Understanding TCP</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/13-understand-tcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/13-understand-tcp/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>14 I Trees</title>
       <link>//localhost:1313/series/ds-and-a/14-i-trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -243,10 +451,24 @@
       <description></description>
     </item>
     <item>
+      <title>14 Understanding UDP</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/14-understanding-udp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/14-understanding-udp/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>15 Dynamic Programming</title>
       <link>//localhost:1313/series/ds-and-a/15-dynamic-programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/ds-and-a/15-dynamic-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>15 IP Subnets</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/15-ip-subnets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/15-ip-subnets/</guid>
       <description></description>
     </item>
     <item>
@@ -271,10 +493,24 @@
       <description></description>
     </item>
     <item>
+      <title>16 Routing</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/16-routing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/16-routing/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>17 Amortized Analysis</title>
       <link>//localhost:1313/series/ds-and-a/17-amortized-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/ds-and-a/17-amortized-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>17 The Link Layer</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/17-the-link-layer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/17-the-link-layer/</guid>
       <description></description>
     </item>
     <item>
@@ -289,6 +525,13 @@
       <link>//localhost:1313/series/ds-and-a/18-intro-graph-theory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/ds-and-a/18-intro-graph-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18 ARP</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/18-arp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/18-arp/</guid>
       <description></description>
     </item>
     <item>
@@ -313,6 +556,13 @@
       <description></description>
     </item>
     <item>
+      <title>19 Networking Hardware</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/19-network-hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/19-network-hardware/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>20 Introduction to Complexity Theory</title>
       <link>//localhost:1313/series/ds-and-a/20-intro-complexity-theory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -324,6 +574,13 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/20-packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/20-packages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>20 What is DNS</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/20-what-is-dns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/20-what-is-dns/</guid>
       <description></description>
     </item>
     <item>
@@ -341,6 +598,13 @@
       <description></description>
     </item>
     <item>
+      <title>21 What is NAT</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/21-what-is-nat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/21-what-is-nat/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>22 Fibonachi Heaps</title>
       <link>//localhost:1313/series/ds-and-a/22-fib-heaps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -352,6 +616,13 @@
       <link>//localhost:1313/series/a-guide-to-go-programming/22-mutexes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/a-guide-to-go-programming/22-mutexes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>22 What is DHCP</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/22-what-is-dhcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/22-what-is-dhcp/</guid>
       <description></description>
     </item>
     <item>
@@ -369,6 +640,13 @@
       <description></description>
     </item>
     <item>
+      <title>23 Firewalls and Ports</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/23-firewalls-and-ports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/23-firewalls-and-ports/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>24 Larger Projects</title>
       <link>//localhost:1313/series/a-guide-to-go-programming/24-larger-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -380,6 +658,13 @@
       <link>//localhost:1313/series/ds-and-a/24-veb-trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/ds-and-a/24-veb-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>24 Wrapping it Up and What is Next</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/24-wrapping-it-up-and-what-is-next/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/24-wrapping-it-up-and-what-is-next/</guid>
       <description></description>
     </item>
     <item>

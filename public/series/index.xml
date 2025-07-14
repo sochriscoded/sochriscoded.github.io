@@ -4,7 +4,7 @@
     <title>Series on Christopher Smith</title>
     <link>//localhost:1313/series/</link>
     <description>Recent content in Series on Christopher Smith</description>
-    <generator>Hugo -- 0.147.9</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
     <atom:link href="//localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -19,6 +19,20 @@
       <link>//localhost:1313/series/data-structures-and-algorithms-in-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/data-structures-and-algorithms-in-go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking Concepts in Go</title>
+      <link>//localhost:1313/series/networking-concepts-in-go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/networking-concepts-in-go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Our First CRUD App</title>
+      <link>//localhost:1313/series/our-first-crud-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/our-first-crud-app/</guid>
       <description></description>
     </item>
   </channel>
