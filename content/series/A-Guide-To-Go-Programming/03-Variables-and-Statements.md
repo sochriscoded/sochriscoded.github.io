@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = '03 Variables and Statements'
 series = ['A Guide To Go Programming']
 tags = ['golang']

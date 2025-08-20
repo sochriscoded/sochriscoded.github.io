@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = '09 Slices'
 series = ['A Guide To Go Programming']
 tags = ['golang']

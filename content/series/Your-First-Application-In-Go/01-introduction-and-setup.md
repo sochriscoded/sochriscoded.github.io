@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = '01 Building our First CRUD App in Go!'
 series = ['Our First CRUD App']
 tags = ['projects']
