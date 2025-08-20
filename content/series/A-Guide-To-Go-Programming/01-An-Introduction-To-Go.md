@@ -1,13 +1,13 @@
 +++
 draft = false
-title = '01 An Introduction to Go'
+title = '01 An Introduction to Go' 
 series = ['A Guide To Go Programming']
 tags = ['golang']
 +++
 
 ## Why Go
 
-In a world overflowing with programming languages, Go (or Golang) stands out not just for what it does,but for why it was created in the first place. Born at Google in the late 2000s, Go was forged in the fires of frustration. Its creators,Robert Griesemer, Rob Pike, and Ken Thompson,were all veterans of systems programming and distributed systems, and they were growing weary of the complex build times, clunky dependency management, and lack of scalability in existing languages.
+In a world overflowing with programming languages, Go (or Golang) stands out not just for what it does,but for why it was created in the first place. Born at Google in the late 2000s, Go was forged in the fires of frustration. Its creators,Robert Griesemer, Rob Pike, and Ken Thompson, were all veterans of systems programming and distributed systems, and they were growing weary of the complex build times, clunky dependency management, and lack of scalability in existing languages.
 
 They weren’t just trying to make another language. They were trying to build a better toolchain, a faster compiler, and a modern language for the multicore, networked age of computing. And so, in 2007, they started building Go.
 
@@ -68,7 +68,7 @@ Go continues to evolve,but slowly and deliberately. It’s not chasing trends or
 
 If you’re building modern infrastructure or need fast, reliable server software, Go remains one of the most pragmatic choices around. In this series, I want to look at the world through this lens, and how to build the tools you can use in your own large-scale projects.
 
-## Why This Book?
+## Why This Seris?
 
 I started my love for computer science in books, specifically through Micheal [Halverson's Visual Basic 2005](https://www.amazon.com/dp/0735621314) thanks to my dad. Since that point so long ago in 2005-2006, I've evolved and matured, and the process by which we learn to program has changed with it.
 
