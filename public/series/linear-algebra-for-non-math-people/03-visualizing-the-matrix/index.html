@@ -5,11 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Series | Christopher Smith</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
+<title>03 Visualizing the Matrix | Christopher Smith</title>
+<meta name="keywords" content="Linear Algebra">
+<meta name="description" content="Welcome to Flatland
+Flatland: A Romance of Many Dimensions is a satirical novel by the English educator and priest the Reverand Edwind Abbott Abbott. What was initially a satire on victorian standards and culture wound up becoming a mathematical classic, exploring the relationship between 1d, 2d, and 3d spaces. At the same time, a near-contemporary of Rev. Abbott, the famed mathematician Bernhard Reimann was making significant contributions to the world of mathematics. One such contribution is the famous &ldquo;Reimann Hypothesis.&rdquo; Without scaring or boring you, Reimann wanted to explore the relationship between numbers and most importantly, why prime numbers are where they are. To do so, Reimann had to explore a kind of cordinante system that you and I might not be familiar with: The complex plane.">
 <meta name="author" content="">
-<link rel="canonical" href="//localhost:1313/series/">
+<link rel="canonical" href="//localhost:1313/series/linear-algebra-for-non-math-people/03-visualizing-the-matrix/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.74dc5c78a3d6193932696f9092c3fab92aa642d357f33e35c565a55ecbd6e0c4.css" integrity="sha256-dNxceKPWGTkyaW&#43;QksP6uSqmQtNX8z41xWWlXsvW4MQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="//localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
@@ -18,8 +19,7 @@
 <link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/series/index.xml">
-<link rel="alternate" hreflang="en" href="//localhost:1313/series/">
+<link rel="alternate" hreflang="en" href="//localhost:1313/series/linear-algebra-for-non-math-people/03-visualizing-the-matrix/">
 <noscript>
     <style>
         #theme-toggle,
@@ -73,7 +73,7 @@
 
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -120,7 +120,7 @@
             </li>
             <li>
                 <a href="//localhost:1313/series/" title="Learn">
-                    <span class="active">Learn</span>
+                    <span>Learn</span>
                 </a>
             </li>
             <li>
@@ -132,18 +132,55 @@
     </nav>
 </header>
 <main class="main">
-<header class="page-header">
-    <h1>Series</h1>
-</header>
 
-<ul class="terms-tags">
-    <li>
-        <a href="//localhost:1313/series/a-guide-to-go-programming/">A Guide To Go Programming <sup><strong><sup>2</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="//localhost:1313/series/linear-algebra-for-nonmath-people/">Linear Algebra For NonMath People <sup><strong><sup>3</sup></strong></sup> </a>
-    </li>
-</ul>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      03 Visualizing the Matrix
+    </h1>
+    <div class="post-meta">
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="welcome-to-flatland">Welcome to Flatland<a hidden class="anchor" aria-hidden="true" href="#welcome-to-flatland">#</a></h2>
+<p><em>Flatland: A Romance of Many Dimensions</em> is a satirical novel by the English educator and priest the Reverand Edwind Abbott Abbott. What was initially a satire on victorian standards and culture wound up becoming a mathematical classic, exploring the relationship between 1d, 2d, and 3d spaces. At the same time, a near-contemporary of Rev. Abbott, the famed mathematician Bernhard Reimann was making significant contributions to the world of mathematics. One such contribution is the famous &ldquo;Reimann Hypothesis.&rdquo; Without scaring or boring you, Reimann wanted to explore the relationship between numbers and most importantly, why prime numbers are where they are. To do so, Reimann had to explore a kind of cordinante system that you and I might not be familiar with: The complex plane.</p>
+<p>Look at a map of a grid-based city: New york city, Chicago, or even better, Salt Lake City. When the Mormon Prophet, Brigham Young was leading his pioneers into the Salt Lake Valley, he ended up designing a city centered on a coordinate system. The center of the city would be the Salt Lake Temple, and would branch out from there.</p>
+<p>If we were to put Temple Square at the address 0,0, then each avenue and street would follow outwards: (100 North, 300 West), (4000 South, 250 East), and so on and so forth. Many cities in Utah follow this same pattern. If I told you to meet me at 1523 N 150 E, also known as Canyon Road, you could quickly find out that I wanted to meet you at the Swig at BYU before watching a basketball game. When in Utah, do as the Utahns do I suppose.</p>
+<p>But all of these examples I have provided teach us something that is important to linear algebra: cordinate system and visual representations of what we are doing right now!</p>
+<h2 id="1-dimension-the-number-line">1 Dimension: The Number Line<a hidden class="anchor" aria-hidden="true" href="#1-dimension-the-number-line">#</a></h2>
+<p>Start by drawing a horizontal line. On it, make a virtical mark and label it $0$. To the right of 0, make at least 5 roughly equal tick marks, and to the left, make roughly 5 equal tick marks. Label the left marks from -1 to -5 and the right marks from 1 to 5.</p>
+<p><img alt="A Number Line" loading="lazy" src="/imgs/linalg3-1.png"></p>
+<p>This is pretty easy stuff here. Pick a spot to start and draw a line with an arrow at the end to however far you want:</p>
+<p><img alt="An Arrow" loading="lazy" src="/imgs/linalg3-2.png"></p>
+<p>If you can&rsquo;t see it, mine goes from -3 to 3, making it 6 units long. But this isn&rsquo;t very exciting. You can go either right or left, extend for a finite number of spaces, or go on to infinity. You could say the domain of this space is $(-\infty,\infty)$.</p>
+<h2 id="dimension-2-cartesian-boogaloo">Dimension 2: Cartesian Boogaloo<a hidden class="anchor" aria-hidden="true" href="#dimension-2-cartesian-boogaloo">#</a></h2>
+<p>If you have seen Breakin&rsquo; 2, how is the back medicine treating you?</p>
+<p>okes aside, things get more fun when we add a second dimension. Add a second vertical line to your number line at 0,0. Do the same for this new line as you did for the previous one: 5 ticks above 0 and 5 ticks below 0. Label them accordingly:</p>
+<p><img alt="A Coordinate System" loading="lazy" src="/imgs/linalg3-3.png"></p>
+<p>Now we can give our lovely, arrow-topped lines some room to move around. draw some new arrows and give them a starting point at (0,0):</p>
+<p><img alt="It ain&rsquo;t got no arrow but you get the point" loading="lazy" src="/imgs/linalg3-4.png"></p>
+<p>Mine doesn&rsquo;t have an arrow, but hopefully you get the picture. We can measure this finite arrow by seeing how far it goes <em>across</em> and how <em>high</em> it goes. In this case, my arrow has a length of 1 and a height of 1. What does this have to do with matrices?</p>
+<p>You put the size of the arrow into a 1 row, 2 column matrix like so:</p>
+$$ \begin{bmatrix} 1 \\ 1 \end{bmatrix}$$<p>This type of arrow is called a <strong>vector</strong>.</p>
+<p>We&rsquo;ll look at vectors more in-depth later on, but I want you to be able to see what a matrix is visually, just to get a feel for it.</p>
+<h2 id="but-what-about-bigger-matrices">But What about Bigger Matrices?<a hidden class="anchor" aria-hidden="true" href="#but-what-about-bigger-matrices">#</a></h2>
+<p>In the case of a matrix like this:</p>
+$$ \begin{bmatrix} 5 & 8 & 2 \\ 2 & 7 & 4 \\ 1 & 9 & 2 \end{bmatrix}$$<p>You&rsquo;d either be looking at a vector that traveres many dimensions or we use matrices like these in examining networks and the lengths between points in a network. It is also useful for scatterplot data, something we care about in AI, machine learning, and higher-level statistics. As you can see, matrices have plenty of applications in the real world, which is why we are studying linear algebra in-depth! Yay you!</p>
+<h2 id="multiple-vectors">Multiple Vectors<a hidden class="anchor" aria-hidden="true" href="#multiple-vectors">#</a></h2>
+<p>We can have more than one vector on a grid. In fact, this is important to just about every field involving motion. From thermodynamics, hydrodynamics, meterology, kinsenology, plain jane physics, and plenty of others, experts use vectors to model the movement objects in 2d and 3d space. This all is possible thanks to our understanding of linear algebra.</p>
+<p>Because of this, its important we have a strong understanding of how these vectors work, how matrices relate to vectors, and how to describe the changing of both in a logical and concrete way. From here on out, everything you will learn has a real-life application. If you have ever asked yourself the question &ldquo;When am I going to use THAT in my work?&rdquo;, then you should rest assured, learning linear algebra from here will greatly boost EVERYTHING you do, if you wish to become an expert in your field, even one that is creative, like music or fine arts.</p>
+<p>This particular lesson was much shorter than most, as I just wanted to give you a taste of what you can do with vectors and linear algebra. For our next lesson, we&rsquo;ll go back to our linear equations and start to build our understanding of how matrices behave in relation to linear systems.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="//localhost:1313/tags/linear-algebra/">Linear Algebra</a></li>
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">
