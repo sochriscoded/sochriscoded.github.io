@@ -13,9 +13,11 @@
   </url><url>
     <loc>//localhost:1313/series/a-guide-to-go-programming/01-an-introduction-to-go/</loc>
   </url><url>
-    <loc>//localhost:1313/series/linear-algebra-for-non-math-people/01-what-does-linear-mean/</loc>
+    <loc>//localhost:1313/series/linear-algebra-for-non-math-people/01-what-des-linear-mean/01-what-does-linear-mean/</loc>
   </url><url>
     <loc>//localhost:1313/series/a-guide-to-go-programming/02-hello-world/</loc>
+  </url><url>
+    <loc>//localhost:1313/series/linear-algebra-for-non-math-people/02-matrices-in-linear-systems/</loc>
   </url><url>
     <loc>//localhost:1313/series/a-guide-to-go-programming/</loc>
   </url><url>

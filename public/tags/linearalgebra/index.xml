@@ -8,11 +8,20 @@
     <language>en-us</language>
     <atom:link href="//localhost:1313/tags/linearalgebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>01 What Does Linear Mean</title>
-      <link>//localhost:1313/series/linear-algebra-for-non-math-people/01-what-does-linear-mean/</link>
+      <title>01 Equations and Systems of Equations</title>
+      <link>//localhost:1313/series/linear-algebra-for-non-math-people/01-what-des-linear-mean/01-what-does-linear-mean/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/series/linear-algebra-for-non-math-people/01-what-does-linear-mean/</guid>
+      <guid>//localhost:1313/series/linear-algebra-for-non-math-people/01-what-des-linear-mean/01-what-does-linear-mean/</guid>
       <description>&lt;p&gt;In the 1930&amp;rsquo;s, two indepentent mathematicians, Leonid Kantorovich and Wassily Leontief were busy producing something that would be overlooked for decades: The true and practical application of linear equations in an increasingly modern, increasingly mechanical world. While their groundbreaking work was overlooked by peers like Alan Turing and John Von Neumann, both of whom would have profound impact on the world of mathematics and computer science, Kantorovich and Leontief&amp;rsquo;s work would nontheless be just as important in our modern age as Turing&amp;rsquo;s and von Neumann&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>02 Matricies in Linear Systms</title>
+      <link>//localhost:1313/series/linear-algebra-for-non-math-people/02-matrices-in-linear-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/linear-algebra-for-non-math-people/02-matrices-in-linear-systems/</guid>
+      <description>&lt;h2 id=&#34;matrices-makes-things-simpler&#34;&gt;Matrices Makes Things Simpler!&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s look at a new linear system:&lt;/p&gt;
+$$\begin{cases}-\frac{1}{2}x + 3y + \frac{1}{8}z = \frac{17}{2} \\ 5x + 12y - 8z = 14 \\ x + 2z = 10 \end{cases}$$&lt;p&gt;While this is pretty trival and graphing it is no issue now thanks to 3d calculators, its difficult to envision a 4th or 5th dimension in which to find the point. From about here, we need to start to look at our linear equations strictly as that. But having all of these extra letters and operators tend to get in the way of our math, as what we are really doing our math on isn&amp;rsquo;t our unknown variables, rather we are doing the math on the &lt;em&gt;coefficients&lt;/em&gt; next to the variables.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

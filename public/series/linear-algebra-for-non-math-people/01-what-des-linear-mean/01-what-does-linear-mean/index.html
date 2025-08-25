@@ -6,10 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
 <title>01 Equations and Systems of Equations | Christopher Smith</title>
-<meta name="keywords" content="linearalgebra">
+<meta name="keywords" content="Linear Algebra">
 <meta name="description" content="In the 1930&rsquo;s, two indepentent mathematicians, Leonid Kantorovich and Wassily Leontief were busy producing something that would be overlooked for decades: The true and practical application of linear equations in an increasingly modern, increasingly mechanical world. While their groundbreaking work was overlooked by peers like Alan Turing and John Von Neumann, both of whom would have profound impact on the world of mathematics and computer science, Kantorovich and Leontief&rsquo;s work would nontheless be just as important in our modern age as Turing&rsquo;s and von Neumann&rsquo;s.">
 <meta name="author" content="">
-<link rel="canonical" href="//localhost:1313/series/linear-algebra-for-non-math-people/01-what-does-linear-mean/">
+<link rel="canonical" href="//localhost:1313/series/linear-algebra-for-non-math-people/01-what-des-linear-mean/01-what-does-linear-mean/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.74dc5c78a3d6193932696f9092c3fab92aa642d357f33e35c565a55ecbd6e0c4.css" integrity="sha256-dNxceKPWGTkyaW&#43;QksP6uSqmQtNX8z41xWWlXsvW4MQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="//localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="//localhost:1313/series/linear-algebra-for-non-math-people/01-what-does-linear-mean/">
+<link rel="alternate" hreflang="en" href="//localhost:1313/series/linear-algebra-for-non-math-people/01-what-des-linear-mean/01-what-does-linear-mean/">
 <noscript>
     <style>
         #theme-toggle,
@@ -169,13 +169,33 @@ $$\begin{cases}y = -2x-1 \\ y = 3x-2 \\ y = x+1 \end{cases}$$<p>If you were to g
 <p>Let&rsquo;s go back to our initial problem:</p>
 $$\begin{cases} 5x + 12y = 42 \\ x + 5y = 12 \end{cases}$$<p>I&rsquo;ve rewritten it into our (x,y) form, which will make sense very soon. If you recall from algebra 1, we can take x and y variables and convert them into the point-slope formula:</p>
 $$\begin{cases} y = -\frac{5}{12}x + \frac{21}{6} \\ y = -\frac{1}{5}x + \frac{12}{5} \end{cases}$$<p>And use that to manually graph our lines. Or, alternatively, you can use desmos like a normal person:</p>
+<p><img alt="A Linear Equation" loading="lazy" src="/imgs/linalg-1.png"></p>
+<p>See where the two lines cross? This is our solution. As there is only one, we would call it a unique solution.</p>
+<p>But what if we don&rsquo;t want to graph it? The Mathematician Carl Gauss figured out a method for solving these sorts of problems that resulted in the exact same solution set as the ones above:</p>
+<ol>
+<li>We can moves the rows around</li>
+<li>we can replace a row by adding it to a multiple of another row</li>
+<li>We can multiply a row by a constant number that isn&rsquo;t zero</li>
+</ol>
+<p>What is key about these actions is that they are always the same as the row we are working on, ever single time. We&rsquo;ll prove it over the next couple of examples below.</p>
+<h2 id="solving-our-simple-2-equation-system">Solving our simple, 2-equation system:<a hidden class="anchor" aria-hidden="true" href="#solving-our-simple-2-equation-system">#</a></h2>
+<p>We can see that if we take -5 and multiply it to the second row, we get $-5x-25y=-60$ If we were to add that result to the first row, we would get $-13y = -18$. Now, you might be thinking &ldquo;Man, no way this works. It can&rsquo;t possibly also be in our linear system, right?&rdquo; Remember: <em>We can verify that if it converges with the other lines on the graph, it is valid.</em></p>
+<p><img alt="Booya, it works!" loading="lazy" src="/imgs/linalg1-1.png"></p>
+<p>It works y&rsquo;all. $y$ does in fact, $=-\frac{18}{13}$.</p>
+<p>We can use this fact that $y = -\frac{18}{13}$ to find x. Just take 1 equation (we&rsquo;ll do the second one because it is easiest), and substitute y for $\frac{18}{13}$. Do the arithmatic again, and you wind up with $x = \frac{66}{13}$</p>
+<p>We&rsquo;ll prove it to be true one more time:</p>
+<p><img alt="I Had Trouble With the Arithmatic Actually" loading="lazy" src="/imgs/linalg1-2.png"></p>
+<p>And voila! We have our solution set: $[x = \frac{66}{13}, y = \frac{18}{13}]$</p>
+<h2 id="question-what-if-we-have-a-lot-of-variables">Question: What if we have a LOT of variables?<a hidden class="anchor" aria-hidden="true" href="#question-what-if-we-have-a-lot-of-variables">#</a></h2>
+<p>Recall at that the beginning, I spoke about our friend Wassily having literally HUNDREDS of varables and HUNDRES of linear equations. What do you do when it isn&rsquo;t quite so simple?</p>
+<p>In the next article, we will look at Matrices, how to use them with linear systems of equations, and their properties.</p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="//localhost:1313/tags/linearalgebra/">Linearalgebra</a></li>
+      <li><a href="//localhost:1313/tags/linear-algebra/">Linear Algebra</a></li>
     </ul>
   </footer>
 </article>
