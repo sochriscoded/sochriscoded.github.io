@@ -7,8 +7,6 @@ tags = ['Math For Normal People']
 math = true
 +++
 
-Most people think math is boring, terrifying, or only for geniuses. But that’s not true. The problem isn’t math itself — it’s how we teach it. Math, at its heart, is a creative, playful language and if we learn it that way, we can learn any math we want.
-
 For much of the late Mercantile to the end of the pre-industrial revolution era, formal education, as we understand it today, it did not really exist for the common person.
 
 The average person would receive a bare bones education in their childhood if they were lucky and had an adequate enough school teacher or parents who had time and energy to devote to teaching them, they would learn how to read and write and do common arithmetic.
