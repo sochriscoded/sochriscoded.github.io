@@ -4,16 +4,116 @@
     <title>The Home Page on Christopher Smith</title>
     <link>//localhost:1313/</link>
     <description>Recent content in The Home Page on Christopher Smith</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>//localhost:1313/blog/whatpeoplegetwrongaboutmath/</link>
+      <link>//localhost:1313/series/mftvb-alg-1/02-modeling-equations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/whatpeoplegetwrongaboutmath/</guid>
-      <description></description>
+      <guid>//localhost:1313/series/mftvb-alg-1/02-modeling-equations/</guid>
+      <description>&lt;p&gt;you will be able to:
+• Tell which quantities in a situation can vary and which ones cannot.
+• Explain the meaning of the term “constraint.”
+• Use letters and numbers to write expressions representing the quantities in a situation.
+• Tell which quantities in a situation can vary and which ones cannot.
+• Use letters and numbers to write equations representing the relationships in a situation.
+• Use words and equations to describe the patterns in a table of values or in a set of calculations.
+• Use representations, like diagrams and tables, to help make sense of a described situation and write equations for
+it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/series/mftvb-alg-1/03-solutions-to-equations-one-var/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/mftvb-alg-1/03-solutions-to-equations-one-var/</guid>
+      <description>&lt;p&gt;When you finish this lesson, you will be able to:
+• Explain what it means for a value or pair of values to be a solution to an equation.
+• Find solutions to equations by reasoning about a situation or by using algebra.
+Here are the activities that will help you reach those goals:
+• 1.4.1: Finding the Solution to an Equation in One Variable, Part 1
+• 1.4.2: Writing Equations to Represent Constraints
+◦ 1.4.2: Self Check
+◦ 1.4.2: Additional Resources
+• 1.4.3 Finding the Solution to an Equation in Two Variables
+◦ 1.4.3: Self Check
+◦ 1.4.3: Additional Resources
+• 1.4.4: Finding the Solution to an Equation in One Variable, Part 2
+When you finish this lesson, you will be able to:
+• Tell whether two expressions are equivalent and explain why or why not.
+• Identify the moves that can be made to transform an equation into an equivalent one.
+• Explain what it means for two equations to be equivalent and how equivalent equations can be used to describe the
+same situation in different ways.
+Here are the activities that will help you reach those goals:
+• 1.6.1: Exploring Equivalent Expressions
+• 1.6.2: Expressing Relationships as Equations
+◦ 1.6.2: Self Check
+◦ 1.6.2: Additional Resources
+• 1.6.3: Exploring Related Equations
+◦ 1.6.3: Self Check
+◦ 1.6.3: Additional Resources
+• 1.6.4: Recognizing Related Equations
+When you finish this lesson, you will be able to:
+• Explain why some algebraic moves create equivalent equations but some do not.
+• Describe how equivalent equations are related to the steps of solving equations.
+• Explain what it means for an equation to have no solutions and recognize such an equation.
+Here are the activities that will help you reach those goals:
+• 1.7.1: Determining if Zero Is a Solution
+• 1.7.2: Explaining Acceptable Moves Used to Solve an Equation
+◦ 1.7.2: Self Check
+◦ 1.7.2: Additional Resources
+• 1.7.3: Understanding Equations with No Solution or Infinitely Many
+◦ 1.7.3: Self Check
+◦ 1.7.3: Additional Resources
+• 1.7.4: Solving Equations by Dividing Values
+When you finish this lesson, you will be able to:
+• Solve for a particular variable, given an equation.
+• Determine the more useful form of an equation.
+• Explain the phrase “to solve for a variable.”
+Here are the activities that will help you reach those goals:
+• 1.8.1: Expressing Relationships Between Two Quantities
+• 1.8.2: Identifying the Most Useful Form of an Equation
+◦ 1.8.2: Self Check
+◦ 1.8.2: Additional Resources
+• 1.8.3: Writing Equations and Isolating Variables
+◦ 1.8.3: Self Check
+◦ 1.8.3: Additional Resources
+• 1.8.4: Writing Equations Given Dimensions of Shapes
+When you finish this lesson, you will be able to:
+• Solve an equation for one of the variables.
+Here are the activities that will help you reach those goals:
+• 1.9.1: Rearranging an Equation in Three Variables
+• 1.9.2: Writing an Equation to Represent a Constraint
+◦ 1.9.2: Self Check
+◦ 1.9.2: Additional Resources
+• 1.9.3: Writing and Rearranging Equations in Two Variables
+◦ 1.9.3: Self Check
+◦ 1.9.3: Additional Resources
+• 1.9.4: Solving for a Specified Variable&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/series/mftvb-alg-1/04-graphing-linear-equations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/mftvb-alg-1/04-graphing-linear-equations/</guid>
+      <description>&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;p&gt;• Describe the connections between an equation of the form , the features of its graph, and the rate of
+change in the situation.
+• Graph linear equations of the form .
+• Demonstrate that rewriting the equation for a line in different forms can make it easier to find certain kinds of
+information about the relationship and about the graph.
+• Find the slope and vertical intercept of a line with equation .
+• Take an equation of the form and rearrange it into the equivalent form .
+• Use a variety of strategies to find the slope and vertical intercept of the graph of a linear equation given in different
+forms.
+• Write an equation of the line given the slope and -intercept.
+• Write an equation of the line given the slope and a point.
+• Write an equation of the line given two points.
+• Write equations from a point and slope.
+• Write equations from two points.
+• Write equations from a verbal description.
+• Write equations from a table.&lt;/p&gt;</description>
     </item>
     <item>
       <title>01 An Introduction to Go</title>
@@ -29,6 +129,14 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/series/linear-algebra-for-non-math-people/01-what-does-linear-mean/</guid>
       <description>&lt;p&gt;In the 1930&amp;rsquo;s, two indepentent mathematicians, Leonid Kantorovich and Wassily Leontief were busy producing something that would be overlooked for decades: The true and practical application of linear equations in an increasingly modern, increasingly mechanical world. While their groundbreaking work was overlooked by peers like Alan Turing and John Von Neumann, both of whom would have profound impact on the world of mathematics and computer science, Kantorovich and Leontief&amp;rsquo;s work would nontheless be just as important in our modern age as Turing&amp;rsquo;s and von Neumann&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>01 What People Get Wrong About Math</title>
+      <link>//localhost:1313/series/math-from-the-very-beginning-foundations/01-what-people-get-wrong-about-math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/math-from-the-very-beginning-foundations/01-what-people-get-wrong-about-math/</guid>
+      <description>&lt;p&gt;For much of the late Mercantile to the end of the pre-industrial revolution era, formal education, as we understand it today, it did not really exist for the common person.&lt;/p&gt;
+&lt;p&gt;The average person would receive a bare bones education in their childhood if they were lucky and had an adequate enough school teacher or parents who had time and energy to devote to teaching them, they would learn how to read and write and do common arithmetic. If a student was lucky enough, they might have had the chance to go to a finishing school or boarding school, receive more education in the arts, science, and mathematics beyond just simple arithmetic, and eventually either go into a business, or continue to a form of higher education.&lt;/p&gt;</description>
     </item>
     <item>
       <title>02 Hello World</title>

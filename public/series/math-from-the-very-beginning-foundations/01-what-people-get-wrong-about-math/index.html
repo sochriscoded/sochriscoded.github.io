@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>01 What People Get Wrong About Math | Christopher Smith</title>
+<meta name="keywords" content="MFTVB Foundations">
+<meta name="description" content="For much of the late Mercantile to the end of the pre-industrial revolution era, formal education, as we understand it today, it did not really exist for the common person.
+The average person would receive a bare bones education in their childhood if they were lucky and had an adequate enough school teacher or parents who had time and energy to devote to teaching them, they would learn how to read and write and do common arithmetic. If a student was lucky enough, they might have had the chance to go to a finishing school or boarding school, receive more education in the arts, science, and mathematics beyond just simple arithmetic, and eventually either go into a business, or continue to a form of higher education.">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313/series/math-from-the-very-beginning-foundations/01-what-people-get-wrong-about-math/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2d3caeecb721534abc92142db36b968fb8667585774db463e7610b2b49e41c37.css" integrity="sha256-LTyu7LchU0q8khQts2uWj7hmdYV3TbRj52ELK0nkHDc=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/series/math-from-the-very-beginning-foundations/01-what-people-get-wrong-about-math/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, 
+    {
+              delimiters: [
+                  {left: '$$', right: '$$', display: true},
+                  {left: '\\[', right: '\\]', display: true},
+                  {left: '$', right: '$', display: false},
+                  {left: '\\(', right: '\\)', display: false}
+              ]
+          }
+    );"></script>
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="Christopher Smith (Alt + H)">Christopher Smith</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/series/" title="Learn">
+                    <span>Learn</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      01 What People Get Wrong About Math
+    </h1>
+    <div class="post-meta">
+
+</div>
+  </header> 
+  <div class="post-content"><p>For much of the late Mercantile to the end of the pre-industrial revolution era, formal education, as we understand it today, it did not really exist for the common person.</p>
+<p>The average person would receive a bare bones education in their childhood if they were lucky and had an adequate enough school teacher or parents who had time and energy to devote to teaching them, they would learn how to read and write and do common arithmetic. If a student was lucky enough, they might have had the chance to go to a finishing school or boarding school, receive more education in the arts, science, and mathematics beyond just simple arithmetic, and eventually either go into a business, or continue to a form of higher education.</p>
+<p>Contrast this with the modern day. It is almost expected of an individual to go to university and complete some sort of undergraduate degree. Many jobs require some form of undergraduate degree, and there are plenty of programs that require some type of professional certificate (such as a journeyman’s or master electrician’s license).</p>
+<p>As a result, most of the education in the world is geared towards this more professional viewpoint: Education as a means to an end, rather than education for the sake of itself. It has become a war against the tests, the grade point averages, and the knowledge itself, all for the sake of a job or a career. One of the casualties of this war is mathematics. From an early age, we are taught how to count, how to multiply, and before we can develop an appreciation for it, we are told “you will have to know this or you will work a dead-end job at McDonald’s.”</p>
+<p>And right there, that’s where the misunderstanding begins. Instead of seeing math as a creative language, a language about elegance, truth, patterns, and the world around us, we’re taught to see it as a punishment. No wonder people fear it.</p>
+<p>Paul Lockheart summarizes his feelings on the matter in his short 25-page essay/novel, “The Mathematician’s Lament.” At the very beginning he asks a simple question: What if we taught music or painting the way we teach math?</p>
+<p>While I am no professional musician, I was in bands and choirs in both college and high school. I played the trumpet and french horn, sung, acted, did speech and debate, and plenty of other traditionally creative pursuits. How these pursuits are taught aren’t like how we teach math: Rather than teaching rotely the theory and technique behind drawing, painting, music, or writing, we give students a chance to express themselves and in doing so they start to learn and refine the technique.</p>
+<p>Contrast this with how we teach math. We learn our numbers, how to add and subtract on our own and almost immediately afterwards we are confronted with times tables, we are made to memorize techniques and tested on our ability to memorize these ideas. As a result, we begin to fear math. The phenomena is so common it even has a name: <em>math anxiety</em>. Not many other subjects have anxiety specifically attached to them in this way. We have made the study of math so punishing, we have lost sight of what it really is about. When you treat math as a joyful and creative pursuit like music or art, as play, the fear disappears.</p>
+<p>What we get wrong about math, as students, former students, young adults and former young adults alike, is the false sense that math is not creative. That it is a dry, boring, and rote subject for dry, boring, and rote people. However, this is the opposite of the truth: Math is one of the most creative, artistic, and expression-based fields out there. To study math is to study humanity. To study math is to find the joy in patterns.</p>
+<h2 id="the-joy-and-beauty-of-math">The Joy and Beauty of Math<a hidden class="anchor" aria-hidden="true" href="#the-joy-and-beauty-of-math">#</a></h2>
+<p>You may not believe me right now, but math really is about the study of patterns and finding the art in every day things. Let me show you:</p>
+<h3 id="triangle-in-a-box">Triangle-In-A-Box<a hidden class="anchor" aria-hidden="true" href="#triangle-in-a-box">#</a></h3>
+<p>I want you to make a rectangle. Don&rsquo;t worry about its size or length, just draw a rectangle. Inside of that rectangle, just draw a triangle:</p>
+<p><img alt="trangle" loading="lazy" src="/imgs/mfb-f-1-1.png"></p>
+<p>Now, we aren&rsquo;t going to worry about the size or length or specifics of this triangle, because, theoretically, if you are seeing this from a smaller or bigger screen than me, then the triangle will be bigger or smaller accordingly. Rather I want you to start doing things like moving your triangle around, cutting it in half, cutting the rectangle in half. Pause the video and start doing that. You might start measuring angles, moving your triangle and measuring the angles again. You might notice that no matter what you do, all the angles on the inside add up to 180 degrees.</p>
+<p>But here is what Lockheart notices:</p>
+<p><img alt="half" loading="lazy" src="/imgs/mfb-f-1-2.png"></p>
+<p>If you have a triangle that touches the sides of the rectangle and you split it in half, you can see that each section of the rectangle is exactly the same as each piece of the triangle:</p>
+<p><img alt="half" loading="lazy" src="/imgs/mfb-f-1-3.png"></p>
+<p>What this means is <strong>The triangle is exactly 1/2 the area of the rectangle.</strong> This is a fundamental truth about our universe that you just discovered by playing around with triangles and rectangles. You can test it again and again, and it will always be true: A triangle that has all points touching the sides of the rectangle, no matter where it is placed, will always have a size that is 1/2 the size of the rectangle.</p>
+<p>You might be wondering, how did Lockheart know to come up with this? Is he just naturally gifted? In his words: &ldquo;Inspiration, experience, trial and error, and dumb luck.&rdquo; You actually probably knew this too, but you weren&rsquo;t taught it this way. You were probably presented like this:</p>
+$$ A = \frac{1}{2}bh$$<p>This is the exact same thing as above, but rather than being intuitive or something you discover so completely that you don&rsquo;t need to memorize it, you are made to memorize it because you were taught it in a way that does not allow for this playful expression of discovery and patterns. Again, in Paul&rsquo;s words:</p>
+<p>&ldquo;By concentrating on what, and leaving out why, mathematics is reduced to an empty shell. The art is not in the “truth” but in the explanation, the argument. It is the argument itself which gives the truth its context, and determines what is really being said and meant&hellip; If you deny students the opportunity to engage in this activity— to pose their own problems, make their own conjectures and discoveries, to be wrong, to be creatively frustrated, to have an inspiration, and to cobble together their own explanations and proofs— you deny them mathematics itself.&rdquo;</p>
+<p>But how did we get here? And are teachers really to blame?</p>
+<h2 id="math-wars-attack-of-the-new-method">Math Wars: Attack of the New Method<a hidden class="anchor" aria-hidden="true" href="#math-wars-attack-of-the-new-method">#</a></h2>
+<p>In the 70&rsquo;s and 80&rsquo;s there was a deep concern with the slow growth rate of math scores in the United States. Up until the 1960&rsquo;s, math education was usually classically taught: Young people would learn arithmatic, times tables, basic geometry and then learn elementary algebra if then, if they had the option, they would learn intermediate algebra and geometry. However, this would change, albeit temporarily, in the 1960&rsquo;s and some of the 1970&rsquo;s.</p>
+<p>America was embroiled in a cold war with their rival the USSR and the USSR was winning. As a result, the USA wanted a dramatic shift in their education and thus, &ldquo;New Math&rdquo; was born. Meant to replace rote memorization and standard times tables, students were taught to try to solve problems and find patterns before being given the &ldquo;standard answer.&rdquo; In short, students were being taught to understand &ldquo;why&rdquo; things worked the way they did, and not just &ldquo;how&rdquo; things worked. Today, nations like Japan use this education method effectively. However, we don&rsquo;t use New Math in the USA anymore and it was heavily derided as a failure on all levels, being replaced on and off again with various other methods. But why?</p>
+<p>First, neither teachers nor parents were prepared to handle such a dramatic shift in math education. Math teachers were left with some difficulty in finding support for teaching these new math concepts, the parents didn&rsquo;t know how to use the new ideas from this movement, and as a results, the students were left confused and felt left behind. Resultingly, math curricula by and large dropped the New Math methods and returned to old school traditional memorization and rote lecture.</p>
+<p>By the 1980&rsquo;s the debate over various methods for teaching math came to a head when study after study came out telling the same story: The USA was falling behind, fast. So, in 1989, the National Council of Teachers of Mathematics published the <em>Curriculum and Evaluation Standards for School Mathematics</em> which spurred a massive debate over how math should be taught to young students. The resulting &ldquo;Math Wars&rdquo; persisted until the mid 00&rsquo;s, with the National Govenor&rsquo;s Council meeting over the decade to produce a bipartisan set of standards that we now call the <em>Common Core Standards</em>. Today, Common Core is adopted in 36 states, with Kentucky being the first state to do so.</p>
+<p>This has worked relatively well, with math scores starting to increase more often throughout the US, but then a certain event in 2020 happened that killed scores across the board in all subjects. The result of AI, the &ldquo;event&rdquo;, and other factors coupled with the education system being pushed to the brink has factored in students not feeling like much of what they do matters, and as a result, feel like learning math isn&rsquo;t imporatant if they are going to be replaced anyways.</p>
+<h2 id="beauty-and-the-beast-learning-to-love-math">Beauty and the Beast: Learning to Love Math<a hidden class="anchor" aria-hidden="true" href="#beauty-and-the-beast-learning-to-love-math">#</a></h2>
+<p>This small history lesson aside, I am not saying we need to &ldquo;return&rdquo; to New Math, rather I believe that an appreciation of math comes when we learn how to enjoy it and not fear it. There is still plenty of debate surrounding formal math education, with each side weighing in the pros and cons of each time. Regardless, I want my series to be a resource for learners who really want to stop worrying about math and learn to see it as a creative pursuit.</p>
+<h1 id="on-the-roadmap-again">On the Road(map) Again<a hidden class="anchor" aria-hidden="true" href="#on-the-roadmap-again">#</a></h1>
+<h2 id="foundations-1-working-with-numbers">Foundations 1: Working with Numbers<a hidden class="anchor" aria-hidden="true" href="#foundations-1-working-with-numbers">#</a></h2>
+<p>Our story starts with numbers. Numbers are a way to represent the things we see in the real world. Race cars travels at fast speeds, my house is a certain size, the day is a certain length long. It is by numbers that we can put values to these real-life patterns. We learn how to count at the same time we learn to draw and read, meaning that numbers are just as human and natural as any other creative activity.</p>
+<p>We&rsquo;ll look at what numbers are and some rather fascinating properties about numbers, like how multiplication relates to prime numbers, what a common factor is and how those common factors relate to division. We&rsquo;ll learn how division relates to fractions, what makes fractions special as well as negative numbers and absolute value. Finally, we&rsquo;ll learn about Exponents and Order of Operations and why we even have things like PEMDAS.</p>
+<h2 id="foundations-2-shapes-and-variables">Foundations 2: Shapes and Variables<a hidden class="anchor" aria-hidden="true" href="#foundations-2-shapes-and-variables">#</a></h2>
+<p>In the second half of our foundations series, we&rsquo;ll reintroduce geometry and algebra. We&rsquo;ll learn why we have variables, how to resolve equations, and how to deal with inequalities. We&rsquo;ll start to look at math in a more abstract way, building on what we learned in the previous section. Likewise, we&rsquo;ll start to learn how to think about shapes in relation to formulas and algebraic equations. We&rsquo;ll also start to really look at math not as something that we just apply to real life things, but that math also exists for itself, like art or dance. The idea that math is something we &ldquo;have&rdquo; to do is wrong because we don&rsquo;t &ldquo;have&rdquo; to do art or music, we choose to do it because we love it, because it exists for itself.</p>
+<h2 id="intermediate-math-1-algebra-and-geometry">Intermediate Math 1: Algebra and Geometry<a hidden class="anchor" aria-hidden="true" href="#intermediate-math-1-algebra-and-geometry">#</a></h2>
+<p>Growing up in the United States meant that my math education was segemented out into Algebra 1, Geometry, Algebra 2, College Algebra, and Trig. While this is the format I am used to, I intend to interweave and explore many of these ideas together as they are often connected to each other, but I want to retain the depth of education that comes from separating out Algebra 1 and Geometry</p>
+<h2 id="intermediate-math-2-algebra-2-and-mathematical-thinking">Intermediate Math 2: Algebra 2 and Mathematical Thinking<a hidden class="anchor" aria-hidden="true" href="#intermediate-math-2-algebra-2-and-mathematical-thinking">#</a></h2>
+<p>Algebra 2 is an odd duck, because we take what we learn about how to think rigerously, and learn how to apply creative reasoning to more complex ideas that crop up as a result of geometry. What is an imaginary number? How do we even have complex numbers? What are the implications of triangles and circles? Each of these will be explored in turn with this course.</p>
+<h2 id="intermediate-math-3-college-level-algebra-and-trigenometry">Intermediate Math 3: College-Level Algebra and Trigenometry<a hidden class="anchor" aria-hidden="true" href="#intermediate-math-3-college-level-algebra-and-trigenometry">#</a></h2>
+<p>The final Intermediate program level will be advanced &ldquo;elementary&rdquo; algebra and trigenometry. More often than not, most of my blue collar friends and laborer friends you trigenometry more than I ever will. Understanding the relationship between circles, trianges, and having the ability to analyze such things prepares us for the &ldquo;capstone&rdquo; of elementary mathematics: Calculus 1.</p>
+<h2 id="calculus-1">Calculus 1<a hidden class="anchor" aria-hidden="true" href="#calculus-1">#</a></h2>
+<p>Generally considered to be the ending point for high school mathematics and the starting point for math as a subject area at the upper-level, we&rsquo;ll finish off this entire, long series by asking two seemingly innocent questions: How do we find the slope of any given curve and how do we find the area under any given curve? These two questions bring together everything we have learned before this. As Calculus is considered to be the high point of the foundations of mathematics, I will end this particular series here.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="//localhost:1313/tags/mftvb-foundations/">MFTVB Foundations</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/">Christopher Smith</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://www.youtube.com/watch?v=SiJie3Z7DG8&pp=ygUSd2VlemVyIGJ1ZGR5IGhvbGx5" rel="noopener noreferrer" target="_blank">Love</a> &
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" rel="noopener" target="_blank">Persistance</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

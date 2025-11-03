@@ -4,7 +4,7 @@
     <title>Tags on Christopher Smith</title>
     <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Christopher Smith</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -19,6 +19,13 @@
       <link>//localhost:1313/tags/linear-algebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/linear-algebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MFTVB Foundations</title>
+      <link>//localhost:1313/tags/mftvb-foundations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/mftvb-foundations/</guid>
       <description></description>
     </item>
   </channel>
