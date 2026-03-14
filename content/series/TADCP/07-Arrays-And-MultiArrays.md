@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'How to Think Like a Computer' 
+title = '07 Arrays' 
 series = ['The Art and Design of Computer Programs']
 tags = ['tadcp']
 +++

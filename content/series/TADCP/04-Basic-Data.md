@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'Variables, Operators, and Control Flow' 
+title = '03 Variables, Operators, and Control Flow' 
 series = ['The Art and Design of Computer Programs']
 tags = ['tadcp']
 +++
@@ -118,6 +118,7 @@ Build a program that asks the user for their initials and age, then greets them.
 4. Run your program and test it. What happens if someone enters letters when you ask for age?
 
 >  **Hint:** Always put `&` before the variable name in `scanf()` — except for strings/char arrays.
+> *NOTE: We will talk about scanf much later, we should avoid it for the most part in production code*
 
 ---
 
@@ -139,21 +140,9 @@ Build an interactive two-number calculator.
 
 ---
 
-### Exercise 2.4 — The scanf Buffer Problem
-
-Experience one of C's most notorious beginner pitfalls, then learn to handle it.
-
-1. Write a program that first reads an `int` with `scanf`, then reads a `char` with `scanf`.
-2. Compile and run it. Enter a number and press Enter. Notice anything strange? The char read seems to get skipped.
-3. Research why this happens (hint: the newline character stays in the input buffer).
-4. Fix it by adding a space before `%c` in the format string: `scanf(" %c", &c);`
-5. Write a comment in your code explaining why the space fixes it.
-
->  **Hint:** The space in `" %c"` tells `scanf` to skip any whitespace (including the leftover newline) before reading the character.
-
 ---
 
-### Exercise 2.5 — Receipt Printer
+### Exercise 2.4 — Receipt Printer
 
 Build a formatted store receipt that looks professional.
 

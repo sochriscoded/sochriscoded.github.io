@@ -15,37 +15,45 @@ To that end, I have started this series as a way to return to these principles, 
 
 ## Video Link
 
-## Exercises
+## Resources for Learning
 
-### 1- Write out the algorithm for one of these activities in precise steps:
+I am not the only person who has taught courses similar to this, and I will not be the last. As such, there are a number of books, videos, articles, guides, and so forth that can help you learn, develop, and grow your skills as both a user, and as a learning programmer. 
 
-- Making a cup of coffee/tea
-- Tying your shoes
-- Logging into a website
+**NOTE: You want to avoid always relying on tutorials to learn things. Practice problems, projects, and exercises should come from you, not from AI, not from a tutorial. this is because you want to avoid [TUTORIAL HELL](https://www.reddit.com/r/learnprogramming/comments/188ated/what_exactly_is_tutorial_hell/).**
+
+You can avoid this problem by using these resources when you need them, then stopping once you have learned/come to the solution on your own. There is nothing more satifying than having built something on your own.
+
+### Books and Guides
+
+- [Beej’s Guide to C Programming](https://beej.us/guide/bgc/html/split/index.html)
+
+- [Effective C: An Introduction to Professional C Programming](https://www.amazon.com/Effective-Introduction-Professional-Robert-Seacord/dp/1718501048)
+
+- [The C Programming Language](https://www.amazon.com/gp/product/0131103628)
+
+- [C Programming: A Modern Approach](http://knking.com/books/c2/index.html)
+
+- [Modern C](https://inria.hal.science/hal-02383654)
+
+- [The C Book](https://publications.gbdirect.co.uk/c_book/)
 
 
-Are there any ambiguities that you nitpick through? Computer are not able to infer from what you say broadly. You must be specific and detailed. Computers do not care whether you missed a step. They will follow what you write, exactly. knowing what you want to say versus knowing how to say it are two different things.
+### Video Series
+- [Bro Code: C Programming Course](https://www.youtube.com/watch?v=xND0t1pr3KY)
 
-### 2- Consider Pythagoras's Theorem: a^2 + b^2 = c^2.
+- [Free Code Came: C Programming Course](https://www.youtube.com/watch?v=KJgsSFOSQv0)
 
-Design a step-by-step procedure for resolving the theory, when a and c are both known. How would you take in an input and give an output?
+- [Harvard's CS50: C Programming](https://www.youtube.com/watch?v=ix5jPkxsr7M)
 
-### 3- Write an algorithm in normal language for:
+### Other Resources and Tools:
 
-- Finding a specific book on a bookshelf
-- Deciding what to wear based on the weather
-- Choosing which line to stand in at a grocery store
+- [C Lang Org References](https://www.c-language.org/resources)
 
-Like with exercise 1 and 2 above, is there a way in which you could write it such that you can detail exactly how to perform the task?
+- [LeetCode Exercises Website](https://leetcode.com/)
 
-## Additional Resources for Learning:
+- [Awesome C](https://github.com/inputsh/awesome-c#readme)
 
-1. Beej’s Guide to C Programming
-2. Effective C: An Introduction to Professional C Programming
-3. The C Programming Language
-4. The OG book where “Hello, World!” was first introduced.
-5. CodeVault
-6. The C Programming Language Podcast
+- [C Projects and Tutorials](https://github.com/nCally/Project-Based-Tutorials-in-C)
 
 
 
