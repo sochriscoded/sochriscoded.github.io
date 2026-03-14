@@ -1,6 +1,6 @@
 +++
 draft = false
-title = 'How to Think Like a Computer' 
+title = '01 The Art and Design of Computer Programs' 
 series = ['The Art and Design of Computer Programs']
 tags = ['tadcp']
 +++
