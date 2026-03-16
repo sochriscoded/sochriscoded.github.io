@@ -1,0 +1,55 @@
+{{- define "main" }}
+
+{{- $vid := "" }}
+{{- with .Params.youtube_url }}
+{{- $vid = . | replaceRE `.*(?:youtu\.be/|youtube\.com/watch\?v=)([A-Za-z0-9_-]+).*` "$1" }}
+{{- end }}
+
+<article class="lesson-single">
+
+  {{- partial "lesson-breadcrumb.html" . }}
+
+  <header class="lesson-header">
+    {{- with .Params.episode_number }}
+    <span class="lesson-episode">Episode {{ . }}</span>
+    {{- end }}
+    <h1 class="lesson-title">{{ .Title }}</h1>
+    {{- with .Description }}
+    <p class="lesson-description">{{ . }}</p>
+    {{- end }}
+  </header>
+
+  {{- if $vid }}
+  <div class="lesson-video">
+    <div class="video-embed">
+      <iframe src="https://www.youtube.com/embed/{{ $vid }}"
+              title="{{ .Title | plainify }}"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+    </div>
+  </div>
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="lesson-content post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  {{- with .Params.resources }}
+  <section class="lesson-resources">
+    <h2>Additional Resources</h2>
+    <ul class="resources-list">
+      {{- range . }}
+      <li><a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+</article>
+
+{{- end }}

@@ -1,0 +1,42 @@
+{{- define "main" }}
+
+{{- if .Parent.IsHome }}
+
+<div class="series-index">
+  <header class="series-index-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <p>{{ .Description | markdownify }}</p>
+    {{- end }}
+  </header>
+  <div class="series-grid">
+    {{- range .Sections }}
+    {{- partial "series-card.html" . }}
+    {{- end }}
+  </div>
+</div>
+
+{{- else }}
+
+<div class="course-overview">
+  <nav class="page-breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a>
+    <span class="bc-sep" aria-hidden="true">/</span>
+    <span aria-current="page">{{ .Title }}</span>
+  </nav>
+  <header class="course-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <p class="course-description">{{ .Description | markdownify }}</p>
+    {{- end }}
+  </header>
+  <div class="course-lessons">
+    {{- range .RegularPages.ByParam "episode_number" }}
+    {{- partial "lesson-row.html" . }}
+    {{- end }}
+  </div>
+</div>
+
+{{- end }}
+
+{{- end }}

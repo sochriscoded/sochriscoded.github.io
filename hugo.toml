@@ -1,6 +1,6 @@
 baseURL = 'sochriscoded.github.io'
 languageCode = 'en-us'
-title = 'Christopher Smith'
+title = 'Chris Coded'
 
 pagination.pagerSize = 100
 
@@ -29,7 +29,6 @@ weight = 30
 [taxonomies]
   tag = "tags"
   category = "categories"
-  series = "series"
 
 [markup]
   [markup.goldmark]

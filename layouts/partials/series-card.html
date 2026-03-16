@@ -1,0 +1,10 @@
+<article class="series-card">
+  <span class="series-card-accent"></span>
+  <h2 class="series-card-title">{{ .Title }}</h2>
+  {{- with .Description }}
+  <p class="series-card-description">{{ . }}</p>
+  {{- end }}
+  <div class="series-card-meta">{{ len .RegularPages }} lessons</div>
+  <span class="series-card-cta" aria-hidden="true">Start Learning</span>
+  <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>

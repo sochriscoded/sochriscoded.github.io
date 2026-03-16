@@ -1,0 +1,10 @@
+<article class="lesson-row">
+  <div class="lesson-row-number" aria-hidden="true">{{ .Params.episode_number }}</div>
+  <div class="lesson-row-body">
+    <h3 class="lesson-row-title">{{ .Title }}</h3>
+    {{- with .Description }}
+    <p class="lesson-row-description">{{ . }}</p>
+    {{- end }}
+  </div>
+  <a class="lesson-row-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
