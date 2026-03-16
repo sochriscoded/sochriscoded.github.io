@@ -22,6 +22,9 @@ resources      = [
 ]
 tags = ["tadocp"]
 +++
+## Video Link
+
+## "Let There Be Light!"
 
 There is something special about light. 
 
@@ -29,23 +32,46 @@ Many societies and cultures have myths about it: From Prometheus and fire, to st
 
 Computers live through 1s and 0s, called **binary**. This binary, grouped into **bytes** is the foundation of all computing (Well, there's a bit more to it than that, but we'll explore that later.)
 
-Computers rely on bottled lightning to do things like find new proteins for cancer research, model weather to save lives during disasters, and command an army of 
+Computers rely on bottled lightning to do things like find new proteins for cancer research, model weather to save lives during disasters, and command an army of bots to push disinformation over the course of 10 years, such that the global order breaks down and results in total nuclear destruction.
 
 > *"Brilliant!" Said the Caveman Urga, "You Make Fire Do Thing, Now Humanity Will Collapse!"*
 
-Also like fire, computers have changed the landscape of our entire world. This digital fire has allowed for breakthroughs in supply chains, science, engineering, physics, and space travel. With these machines help, we have broken the interstellar seal and proven to ourselved and all our blue, cosmic island home, that humanity is destined for greatness.
+Like fire, computers have changed the landscape of our entire world. We have made so many strides in it all, and yet, we are now at risk of losing the very skills needed to continue developing new tools and systems that can also radically alter the landscape of the world.
 
-And yet, with our capacity for great development comes a risk of losing the very skills needed to be able to understand the very technology we build. 
+Case in point: Generative AI.
 
 ![image](/imgs/scamaltman.png "Scam Altman Does It Again")
 
-Many developers are choosing to sacrifice their knowledge in the name of vibes, choosing the way of sloppy ease, rather than detailed, well-organized design. The result are increased bugs, security holes, downtime and outages in critical system, broken systems, and entire applications that simply no longer function.
+Many developers are choosing to sacrifice their knowledge in the name of vibes, choosing the way of sloppy ease, rather than detailed, well-organized design. The result are increased bugs, security holes, downtime and outages in critical system, broken systems, and entire applications that simply no longer function. The art of developing services and systems is still present, but as the number of older grey-bearded educators retire or pass away, there aren't people rising up to replace them.
 
-The need to return to a more principled era is upon us, now more than ever. We do not call it engineering for no reason: To engineer is to design with stability and core principles in mind, not as an afterthought. As a result of this, I have been frequently thinking about [this old MIT course a lot](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/). The videos and technology are long outdated, but there is something charming about the methodology of the principles: Seeing programming as wizardry. Magic may feel inaccessible to the unfamiliar, but to the trained and careful, wizardry is nothing more than the crafting of logic to meet one's ends.
+Large tech firms, once the mass-hiring, forward-moving organizations having firing at increasing rates. Outages and downtimes persist, often in dramatic fashion. Microsoft has altogether given up building any decent product and the end result is garbage. slop. trash. pointless.
 
-To that end, I have started this series as a way to return to these principles, to start from the beginning as it were, for people who may have always taken an interested in truly being a programmer or wanting to know how to program from the first principles, then I hope the resources I have can help you do that.
+To call it engineering is a myth. Engineering presumes that the one doing it is building with well-documented, stable, foundational knowledge. But with so few Computer Science degree-holders finding jobs, and those jobs are more at risk of being migrated either into the loving arms of claude or some cubicle in indopacom sphere due to companies always needing to increase return on investment and reduce costs, the once capable replacements for the Linus Torvalds, Denise Ritchies, and Ken Thompsons of the world are shuffling off to find new lines of work that hopefully won't get eaten by the six-fingered black hole that is AI.
 
-## Video Link
+## It's Wizard Time Mother-Trucker!
+
+The need to return to a more principled era is upon us, now more than ever. We do not call it engineering for no reason: To engineer is to design with stability and core principles in mind, not as an afterthought. 
+
+As a result of this, I have been frequently thinking about [this old MIT course a lot](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/). The videos and technology are long outdated, Don't tell Common LISP fans that, but there is something charming about the methodology of the principles: Seeing programming as wizardry. 
+
+Magic may feel inaccessible to the unfamiliar, but to the trained and careful, wizardry is nothing more than the crafting of logic to meet one's ends. Even if that end is finding some way to drain some loser's bitcoin wallet to zero. To that end, I have started this series as a way to return to these principles and in some small measure, fight back against the vibes-based nonsense that is sweeping the USA.
+
+## Intelligence Is Your Birthright
+
+Within the Biblical canon is a story about Esau and Jacob. Esau, the firstborn of his father Isaac, was set to attain the rights and priviledges from his father and grandfather. However, he is stupid and thoughtless. Contrast this with his younger brother Jacob. Jacob is wise, thoughtful, crafty, and capable. As a result, Jacob desires his brother's birthright while Esau takes it for granted. In the end, Jacob approaches Esau one day, who is quite hungry, and offers to sell Esau some food in exchange for his birthright. Esau takes the deal, but ultimately regrets it, begging his father for a blessing. Isaac, irate though loving, offers Esau an inferior blessing.
+
+Make no mistake, AI is not your birthright, your knowledge and intelligence are. Generative AI is not what you are destined recieve: your humanity, creativity, and ability are. Your intelligence is your birthright. Do not sell it for a simple bowl of stew because you are hungry for something more than bread. And make no mistake, to use Generative AI to perform your thinking, your writing, your art, your creativity is cause you to lose your ability [to think](https://time.com/7295195/ai-chatgpt-google-learning-school/), [to grow](https://www.mdpi.com/2075-4698/15/1/6), [to learn](https://www.media.mit.edu/publications/your-brain-on-chatgpt/), [to create](https://www.forbes.com/sites/chriswestfall/2024/12/18/the-dark-side-of-ai-tracking-the-decline-of-human-cognitive-skills/).
+
+Do not sell your birthright for a mess of stew just because you are hungry for steak. Choose to keep your intelligence, your humanity, your ability. Your skills. AI is useful, it is a tool, which, when used correctly, can help find discoveries and make new connections. But it must be understood and used accordingly.
+
+
+I digress.
+
+# C IS GOD'S PROGRAMMING LANGUAGE
+
+The language of our choosing is the C Programming language. I have several reasons for this, namely it forces you to learn twice as much as you would want to, and bugs that crop up require a careful eye, something that AI might not be able to implicitly be able to catch. To really master C, you will, in fact, have to "git gud."
+
+During this series, I want you to avoid AI, for the reasons I have mentioned above, but also because I want you to learn things. AI cannot learn things for you. Only you can learn things for you. And I want you to believe in your own ability, your own intelligence, and own skills.
 
 ## Resources for Learning
 
