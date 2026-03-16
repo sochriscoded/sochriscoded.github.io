@@ -1,5 +1,5 @@
 +++
-draft          = true
+draft          = false
 title          = "Functions"
 episode_number = 5
 description    = "Defining, calling, and reasoning about functions in C."

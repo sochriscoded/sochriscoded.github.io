@@ -1,5 +1,5 @@
 +++
-draft          = true
+draft          = false
 title          = "Variables, Operators, and Control Flow"
 episode_number = 4
 description    = "Working with variables, operators, and control flow structures in C."
