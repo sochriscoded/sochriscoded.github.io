@@ -2,7 +2,7 @@
 draft          = true
 title          = "Coordinate Geometry: Where Algebra Meets Space"
 episode_number = 50
-description    = "Every formula has a geometric soul."
+description     =  "."
 youtube_url    = ""
 exercises      = []
 resources      = []

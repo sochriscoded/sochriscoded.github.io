@@ -2,7 +2,7 @@
 draft          = true
 title          = "Statements, Negations, and Logical Connectives"
 episode_number = 14
-description    = "Most logical errors come from ambiguity; precision eliminates them."
+description    = "."
 youtube_url    = ""
 exercises      = []
 resources      = []

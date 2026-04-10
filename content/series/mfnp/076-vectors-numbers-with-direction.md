@@ -2,7 +2,7 @@
 draft          = true
 title          = "Vectors: Numbers With Direction"
 episode_number = 76
-description    = "From these two, an entire universe unfolds."
+description     =  "."
 youtube_url    = ""
 exercises      = []
 resources      = []

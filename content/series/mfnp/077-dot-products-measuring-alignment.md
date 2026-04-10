@@ -2,7 +2,7 @@
 draft          = true
 title          = "Dot Products: Measuring Alignment"
 episode_number = 77
-description    = "The dot product answers a simple question: how much do two vectors point in the same direction?"
+description     =  "."
 youtube_url    = ""
 exercises      = []
 resources      = []

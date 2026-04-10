@@ -2,7 +2,7 @@
 draft          = true
 title          = "Circles: The Most Perfect Shape"
 episode_number = 46
-description    = "A circle is the set of all points equidistant from a center  the simplest definition with the deepest consequences."
+description     =  "."
 youtube_url    = ""
 exercises      = []
 resources      = []

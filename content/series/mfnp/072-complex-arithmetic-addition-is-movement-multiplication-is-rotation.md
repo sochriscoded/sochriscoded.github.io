@@ -2,7 +2,7 @@
 draft          = true
 title          = "Complex Arithmetic: Addition Is Movement, Multiplication Is Rotation"
 episode_number = 72
-description    = "This episode builds both operations visually and shows why the complex plane is a richer world than the real line."
+description     =  "."
 youtube_url    = ""
 exercises      = []
 resources      = []

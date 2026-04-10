@@ -2,7 +2,7 @@
 draft          = true
 title          = "Why Do We Count?"
 episode_number = 1
-description    = "The deep insight: numbers are about structure, not objects."
+description     =  "."
 youtube_url    = ""
 exercises      = []
 resources      = []

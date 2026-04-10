@@ -2,7 +2,7 @@
 draft          = true
 title          = "Improper Integrals: Integrating to Infinity"
 episode_number = 101
-description    = "The answer is often surprising."
+description     =  "."
 youtube_url    = ""
 exercises      = []
 resources      = []

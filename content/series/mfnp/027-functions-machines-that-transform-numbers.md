@@ -2,7 +2,7 @@
 draft          = true
 title          = "Functions: Machines That Transform Numbers"
 episode_number = 27
-description    = "An input-output machine."
+description    = "."
 youtube_url    = ""
 exercises      = []
 resources      = []

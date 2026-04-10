@@ -1,8 +1,8 @@
 +++
 draft          = true
-title          = "Zero: The Number That Almost Wasn't"
+title          = "The Hunt for Zero"
 episode_number = 7
-description    = "Why can't you divide by zero? Not because of a rule, but because the question itself has no coherent answer."
+description    = "."
 youtube_url    = ""
 exercises      = []
 resources      = []
