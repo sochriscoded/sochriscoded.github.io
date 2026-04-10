@@ -1,6 +1,6 @@
 +++
 draft          = true
-title          = "Gödel's Incompleteness Theorem"
+title          = "Gödels Incompleteness Theorem"
 episode_number = 5
 description    = "."
 youtube_url    = ""

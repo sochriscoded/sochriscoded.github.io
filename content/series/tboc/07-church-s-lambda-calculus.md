@@ -1,6 +1,6 @@
 +++
 draft          = true
-title          = "Church's Lambda Calculus"
+title          = "Churchs Lambda Calculus"
 episode_number = 7
 description    = "."
 youtube_url    = ""
