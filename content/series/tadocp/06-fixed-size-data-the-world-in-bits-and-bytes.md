@@ -1,8 +1,8 @@
 +++
 draft          = true
-title          = "Fixed-Size Data: The World in Bits and Bytes"
+title          = "Fixed-Size Data"
 episode_number = 6
-description     =  "."
+description     =  "See How the World Works in Bits, Bytes, and the Data that is represented by them."
 youtube_url    = ""
 exercises      = []
 resources      = []
