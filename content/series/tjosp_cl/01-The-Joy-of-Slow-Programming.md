@@ -1,6 +1,6 @@
 +++
 draft          = false
-title          = "The Joy of SlowGramming"
+title          = "The Joy of SloGramming"
 episode_number = 1
 description    = "An Introduction to Programming Slowly and the Joy of Programming the Old School Way"
 youtube_url    = ""
@@ -14,19 +14,19 @@ tags = ["tjosp_cl"]
 
 ## The Sun Rises Slowly
 
-I have been lucky enough through my life to travel outdoors more than the average person. Being a Boy Scout meant more camping trips throughout my young life. One particular trip, our troop went to Colorado, traveling to a camp roughly 9,000 ft. in elevation. To my Texas Panhandle-raised mind, It felt so high and so far from home. 
+I have been lucky enough through my life to travel outdoors more than the average person. Being a Boy Scout meant more camping trips throughout my young life. One particular trip, our troop went to Colorado, traveling to a camp roughly 9,000 ft. in elevation. To my Texas Panhandle-raised mind, It felt so high and so far from home.
 
-One morning, we took the opprotunity to travel along the Rock Mountain National Forest Area to witness the Sun rise. Arising at 3am, we walked some length until reaching a rocky outcropping facing down along the east face. There was not much to see at first, other than the inky black of nightime, occationally peired by the beam of a headlamp of someone before you.
+One morning, we took the opportunity to travel along the Rock Mountain National Forest Area to witness the Sun rise. Arising at 3am, we walked some length until reaching a rocky outcropping facing down along the east face. There was not much to see at first, other than the inky black of nighttime, occasionally pierced by the beam of a headlamp of someone before you.
 
 In our tired, unwavering exhaustion someone asked "When does it start?" to which an older leader replied, "Be patient kids. You'll see it."
 
-In the meantime, I struck up a conversation with one of the other troop beside us, and what had been mistrust due to another texas troop misbehaving gave way to understanding and then friendship through shared religious experience, which, by the end of the week had resulted in a massive game of midnight capture the flag. 
+In the meantime, I struck up a conversation with one of the other troop beside us, and what had been mistrust due to another Texas troop misbehaving gave way to understanding and then friendship through shared religious experience, which, by the end of the week had resulted in a massive game of midnight capture the flag.
 
-As we chatted together, eventually, the sky imperceptibly began to change. From the darkness of inky black, the first signs of morning began to shade itself into the tapestry of the morning sky, which increasingly began to lighten and change. Soon, the valley below us came into view, and it was something: 
+As we chatted together, eventually, the sky imperceptibly began to change. From the darkness of inky black, the first signs of morning began to shade itself into the tapestry of the morning sky, which increasingly began to lighten and change. Soon, the valley below us came into view, and it was something:
 
-The camp sat on the eastern side of the Rocky Mountains, and this outcropping was on its easter face, giving the whole party a view of the Denver metro, and the Great Plains beyond. Beyond that was ever-shifting sky, now a mottled pink and orange, and the Sun prepared to once again shine upon us small specks on this amazing floating rock.
+The camp sat on the eastern side of the Rocky Mountains, and this outcropping was on its eastern face, giving the whole party a view of the Denver metro, and the Great Plains beyond. Beyond that was an ever-shifting sky, now a mottled pink and orange, and the Sun prepared to once again shine upon us small specks on this amazing floating rock.
 
-And then, all at once, it burst into view, the mottled pinks became oranges, yellows, and bright magentas, hailing in the morning for the sleepy pedetrians so far away, and our exhausted party as well.
+And then, all at once, it burst into view, the mottled pinks became oranges, yellows, and bright magentas, hailing in the morning for the sleepy pedestrians so far away, and our exhausted party as well.
 
 What had started as a long morning had produced something to great effect rather quickly, the joy of which had not come only from the result, but from the journey it took to get there.
 
@@ -36,19 +36,19 @@ In the last three years AI has quickly revolutionized and changed the way that w
 
 In fact, the AI boom led some industry leaders to believe that most jobs would be “dead” by 2030 and were hailing the advent of AGI by the early 2030s. However, there have been a number of outages, errors and dangerous supply chain attacks have led people to believe there are limitations in the current iteration of AI.
 
-Likewise, resistance against surveillance technology and data center seems to underpin a growing resentment for the machine. Increasingly there is a trend amongst some individuals to go “analog:” A return to a idylic time from the 90’s and pre-9/11 2000’s where technology hype was high, but physical media, and chunky expensive PCs ruled the world.
+Likewise, resistance against surveillance technology and data centers seems to underpin a growing resentment for the machine. Increasingly there is a trend amongst some individuals to go “analog:” A return to an idyllic time from the 90’s and pre-9/11 2000’s where technology hype was high, but physical media, and chunky expensive PCs ruled the world.
 
-In this feeling of dread and loss, it is any wonder why our young people are so quickly turning to gambling, the desire to have it before it is too late, and to betting it all on 0dte optioned and leveraged ETFs? If life is a highway, I might as well stop at the WinStar and try for a Ferrari before I end in Santa Monica. Resultingly, far too many people are left walking through Amarillo metaphorically, begging for gas money outside of the Bucee's on the 287.
+In this feeling of dread and loss, it is no wonder why our young people are so quickly turning to gambling, the desire to have it before it is too late, and to betting it all on 0dte optioned and leveraged ETFs? If life is a highway, I might as well stop at the WinStar and try for a Ferrari before I end in Santa Monica. Resultingly, far too many people are left walking through Amarillo metaphorically, begging for gas money outside of the Bucee's on the 287\.
 
 ## For the Love of Code
 
 Prior to the start of the AI era, I was a computer science teacher, however, due to rising costs, I moved on from teaching to being a developer. In many ways, it felt like the hard work I’d put into educating young and brilliant minds in what was an exploding field seemed to go to waste as many of those individuals felt as if there was no hope for them.
 
-I’ve even had to reckon with why I enjoy the technology space in the first place. I first learned how to program when I was a child.  My dad worked with visual basic.net at his job. Occasionally he would write a snippet of code on pieces of paper and I was intrigued by the loops and elses. So he bought me a book and sat me down and I’m certain I would’ve been good at it if I’ve been diagnosed with my ADHD a little bit sooner. But the love of programming never really left me, and I continued to program in Java through high school. At the time I was making mods for a little known game called Minecraft. 
+I’ve even had to reckon with why I enjoy the technology space in the first place. I first learned how to program when I was a child.  My dad worked with visual basic.net at his job. Occasionally he would write a snippet of code on pieces of paper and I was intrigued by the loops and elses. So he bought me a book and sat me down and I’m certain I would’ve been good at it if I'd been diagnosed with my ADHD a little bit sooner. But the love of programming never really left me, and I continued to program in Java through high school. At the time I was making mods for a little known game called Minecraft.
 
 After high school and starting college, I figured I wasn’t smart enough to be a computer scientist. Math wasn’t exactly my strong suit even in college, but I was an exceptional writer and communicator. I got a degree in communication studies.
 
-However, in the in the midst of teaching, I began to realize something that hadn’t fully distilled until five years after beginning work: There is a joy in slowing down and producing quality over quantity. It is very easy to get a subscription to Claude code and very quickly slop a whole MVP (plus business plan) ready to go in a very short period of time.
+However, in the midst of teaching, I began to realize something that hadn’t fully distilled until five years after beginning work: There is a joy in slowing down and producing quality over quantity. It is very easy to get a subscription to Claude code and very quickly slop a whole MVP (plus business plan) ready to go in a very short period of time.
 
 It is very easy to ignore reasoning about the systems. You work on the data you work with or the services that you provide. And they work move quickly, human reasoning, and capacity can only move so fast, and as of yet, AI models are still only so intelligent.
 
@@ -64,14 +64,13 @@ But I am still a teacher at heart, and I want to give you, the viewer, something
 
 In the 1970’s to the 1980’s a number of programming languages exploded onto the scene. Common Lisp, C, C++, Smalltalk, among a host of others were rolling out. In this expansive growth in the tech world, academic leaders and industry think tanks began to worry about the quality of developers that was being created at the top schools like MIT. Software engineering was becoming more open and accessible. Much of the difficult to understand concepts had been hidden away into black boxes that engineers didn’t need to fully grasp in order to be successful at their job. This was both a good thing, as it made the field more available, and also a negative, as engineers no longer needed to know the core foundations that made being a developer so powerful.
 
-This changed with the advent of the Structure and Interpretation of Computer Programs, a course, lecture series, and book by the same name from Dr. Gerald Jay Sussman, Dr. Harold Abelson, and Julia Sussman. I have always found a great deal of charm in watching the old lecture series, a snapshot of a bygone era, from a time when compute and power were scant, and thus on the minds of developers and business owners alike.
+This changed with the advent of the Structure and Interpretation of Computer Programs, a course, lecture series, and book by the same name from Dr. Gerald Jay Sussman, Dr. Harold Abelson, and Julia Sussman. I have always found a great deal of charm in watching the old lecture series, a snapshot of a bygone era, from a time when compute and power were scarce, and thus on the minds of developers and business owners alike.
 
 As a result, most owners and engineers were focused on how to manage their memory and compute the best, and not so much on the ethereal logic and esoteric nature of what makes computers so great.
 
-
 Ergo, Drs. Sussman and Abelson created the SICP course using the Scheme programming language, a dialect of LISP. LISP or “Lisp Programming” is one of the oldest dialects in use today, alongside COBOL and Fortran, and pioneered many of the things we take for granted as coders: Storage management, tree data structures, higher-order functions, conditionals, and self-hosting compilation.
 
-The series took off and has become a classic ever since, with many universities crafting some variation of this program for their own courses. When I discovered, I found it scratched an itch that I didn't realize I had. There's so much more to programming that I was led to believe, and there is a great deal of joy in taking my time to learn and develop. I have always been a fast runner. It was time for me to learn how to pace myself with marathons.
+The series took off and has become a classic ever since, with many universities crafting some variation of this program for their own courses. When I discovered it, I found it scratched an itch that I didn't realize I had. There's so much more to programming that I was led to believe, and there is a great deal of joy in taking my time to learn and develop. I have always been a fast runner. It was time for me to learn how to pace myself with marathons.
 
 ## The Marathon of Education
 
@@ -91,11 +90,10 @@ After this, we will expand our knowledge of functions with OCaml. Ocaml is the m
 
 In the 3rd part, we return to simplicity with Ruby and the world of OOP. We will explore the contrasts between Object-Oriented Programming and Functional Programming. We will learn about the core concepts of OOP and why they have lasted so well in enterprise settings.
 
-
 ## Grokking Goes Slowly
 
 To "Grok" something is to learn it so deeply it becomes second nature. This comes to atheletes, performers, creators, and builders who have put in the countless hours of sweat, blood, and tears to do so. We cannot skip past the sacrafice that comes with growth. Like Odin, we must be willing to give up something, in this case our effort and our time, for something much better, true knowledge that can actually be vibed from within us. You have AI, actual intelligence, that you can and should grow. You are capable of so much more than you realize, and it is time for you to sit for your sunrise.
 
 In the next section we will explore the 3 core ideas that govern how programs are structured and interpreted in the lens of the LISP programming languages.
 
-Don’t forget to like, comment and subscribe and we’ll see you in the next video!
+Don’t forget to like, comment and subscribe and we’ll see you in the next video\!  
