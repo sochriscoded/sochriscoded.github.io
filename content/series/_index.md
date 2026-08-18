@@ -1,4 +1,4 @@
 +++
-title = "Computer Science Education"
-description = "Structured series that demystify the Art of Computer Science one video and lesson at a time."
+title = "Slow Learning"
+description = "AI speeds things up. Take some time to slow down and enjoy the art of learning."
 +++
