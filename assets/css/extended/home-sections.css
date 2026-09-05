@@ -1,0 +1,62 @@
+/* Homepage sections: profile hero -> Courses -> Latest Post.
+   extended/*.css is globbed alphabetically and concatenated last. */
+
+/* common/profile-mode.css:9 makes the hero a full-viewport centered flex
+   box. That rule is `.main .profile` (0,2,0) — match it or the override
+   loses no matter the source order. */
+.main .profile {
+    min-height: auto;
+    padding: 32px 0 8px;
+}
+
+.home-section { margin-top: 56px; }
+.home-section:last-of-type { margin-bottom: 24px; }
+
+.home-section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-sand);
+}
+.dark .home-section-header { border-bottom-color: var(--border); }
+
+.home-section-title { font-size: 26px; margin: 0; line-height: 1.2; }
+
+.home-section-more {
+    font-size: 14px;
+    color: var(--secondary);
+    text-decoration: none;
+    box-shadow: none;
+    white-space: nowrap;
+}
+.home-section-more:hover { color: var(--color-arch); box-shadow: none; }
+
+/* auto-FIT, not auto-fill: the content column is 780px, which yields two
+   378px tracks. With one course, auto-fill leaves an empty track beside
+   the card, directly above a full-width post card — it reads as a broken
+   render. auto-fit collapses the empty track. */
+.home-section .series-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Dark mode: .dark .series-card falls back to --tertiary (#034558), only
+   ~1.3:1 on --entry — the homepage's primary CTA nearly loses its outline
+   while the post card keeps a stronger one. Restore the warm identity. */
+.dark .home-section .series-card { border-color: var(--color-sand); }
+
+.home-latest {
+    margin-bottom: 0;
+    transition: border-color 0.15s, transform 0.1s;
+}
+.home-latest:hover { border-color: var(--color-amber); transform: translateY(-2px); }
+.home-latest .entry-header h2 { font-size: 24px; line-height: 1.3; margin: 0; }
+
+@media screen and (max-width: 768px) {
+    .main .profile { padding: 16px 0 4px; }
+    .home-section { margin-top: 40px; }
+    .home-section-title { font-size: 22px; }
+}

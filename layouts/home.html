@@ -1,0 +1,68 @@
+{{- define "main" }}
+
+{{- if site.Params.profileMode.enabled }}
+{{- partial "index_profile.html" . }}
+{{- end }}
+
+{{- /* Renders content/_index.md's body if it ever gets one. */ -}}
+{{- with .Content }}
+<div class="post-content">{{ . }}</div>
+{{- end }}
+
+{{- /* Courses: every series with at least one PUBLISHED lesson.
+       archetypes/lesson.md sets draft = true, so a course being written
+       would otherwise show a "0 lessons" card with a live CTA. */ -}}
+{{- with site.GetPage "/series" }}
+{{- $seriesURL := .Permalink }}
+{{- $courses := slice }}
+{{- range $s := .Sections }}
+{{- with $s.RegularPages }}{{ $courses = $courses | append $s }}{{ end }}
+{{- end }}
+{{- with $courses }}
+<section class="home-section" id="courses">
+  <header class="home-section-header">
+    <h2 class="home-section-title">Courses</h2>
+    <a class="home-section-more" href="{{ $seriesURL }}">All courses &rarr;</a>
+  </header>
+  <div class="series-grid">
+    {{- range . }}
+    {{- partial "series-card.html" . }}
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+{{- end }}
+
+{{- /* Latest post. site.RegularPages already excludes drafts/future/expired
+       and is sorted date-descending, so `with` renders NOTHING today. */ -}}
+{{- with first 1 (where site.RegularPages "Section" "blog") }}
+<section class="home-section" id="latest-post">
+  <header class="home-section-header">
+    <h2 class="home-section-title">Latest Post</h2>
+    <a class="home-section-more" href="{{ "/blog/" | relURL }}">All posts &rarr;</a>
+  </header>
+  {{- range . }}
+  {{- $post := . }}
+  {{- /* A post with no front matter has an empty Title; fall back to the
+         filename the way archetypes/default.md does. */ -}}
+  {{- $title := .Title | default (replace .File.ContentBaseName "-" " " | title) }}
+  <article class="post-entry home-latest">
+    <header class="entry-header">
+      <h2>{{ $title }}</h2>
+    </header>
+    {{- with .Summary }}
+    <div class="entry-content">
+      <p>{{ . | plainify | htmlUnescape }}{{ if $post.Truncated }}&hellip;{{ end }}</p>
+    </div>
+    {{- end }}
+    {{- /* post_meta renders nothing when a post has no date — don't leave an empty footer. */ -}}
+    {{- with partial "post_meta.html" . }}
+    <footer class="entry-footer">{{ . }}</footer>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ $title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+</section>
+{{- end }}
+
+{{- end }}

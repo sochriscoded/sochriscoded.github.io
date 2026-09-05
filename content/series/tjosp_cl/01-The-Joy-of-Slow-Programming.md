@@ -1,6 +1,6 @@
 +++
 draft          = false
-title          = "The Joy of SloGramming"
+title          = "The Joy of SlowGramming"
 episode_number = 1
 description    = "An Introduction to Programming Slowly and the Joy of Programming the Old School Way"
 youtube_url    = ""

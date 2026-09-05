@@ -1,4 +1,4 @@
-baseURL = 'sochriscoded.github.io'
+baseURL = 'https://sochriscoded.github.io/'
 languageCode = 'en-us'
 title = 'Chris Coded'
 
@@ -53,16 +53,12 @@ imageWidth = 120
 imageHeight = 120
 
   [[params.profileMode.buttons]]
-  name = "Blog"
-  url = "/blog"
-
-  [[params.profileMode.buttons]]
   name = "Learn"
   url = "/series/"
 
   [[params.profileMode.buttons]]
-  name = "Github"
-  url = "https://www.github.com/sochriscoded"
+  name = "Codeburg"
+  url = "https://www.codeburg.org/chriscoded"
 
 [[params.socialIcons]]
 name = "twitter"

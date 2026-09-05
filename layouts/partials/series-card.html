@@ -4,7 +4,7 @@
   {{- with .Description }}
   <p class="series-card-description">{{ . }}</p>
   {{- end }}
-  <div class="series-card-meta">{{ len .RegularPages }} lessons</div>
+  <div class="series-card-meta">{{ len .RegularPages }} lesson{{ if ne (len .RegularPages) 1 }}s{{ end }}</div>
   <span class="series-card-cta" aria-hidden="true">Start Learning</span>
   <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
